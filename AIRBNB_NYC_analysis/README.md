@@ -9,4 +9,4 @@ I have used publicly avaiable data from Tableau data resource. I have conducted 
 - Where is the most affrodable area for renting the apartment ?
 - Showing general density of properties across NYC
 
-  Dashboard available under this link: <https://public.tableau.com/app/profile/rafal.19/viz/AnalysisofAIRBNBpropertiesavaiableinNYC/Dashboard1?publish=yes>
+  Dashboard available under this link: <https://public.tableau.com/app/profile/rafal.19/viz/AnalysisofAIRBNBpropertiesavailableinNYC/Dashboard1>
