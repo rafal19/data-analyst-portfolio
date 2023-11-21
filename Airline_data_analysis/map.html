@@ -1,0 +1,2877 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dfb1f51b1b03b1890b3b979b891251c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dfb1f51b1b03b1890b3b979b891251c4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dfb1f51b1b03b1890b3b979b891251c4 = L.map(
+                "map_dfb1f51b1b03b1890b3b979b891251c4",
+                {
+                    center: [55.751244, 37.618423],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e5cfe66f1e3e05e8914646f30cab1628 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var marker_c3eafbf3e71569765eb56d32fd0ad2a0 = L.marker(
+                [62.093299865722656, 129.77099609375],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_0fd1b0cec428e23b321495847792c7b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c3eafbf3e71569765eb56d32fd0ad2a0.setIcon(icon_0fd1b0cec428e23b321495847792c7b9);
+        
+    
+        var popup_9a4445153ff850527b6fab545ddbf7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ee1016099e333fc9f525d762960c668 = $(`<div id="html_5ee1016099e333fc9f525d762960c668" style="width: 100.0%; height: 100.0%;">Yakutsk Airport Timezone: Asia/Yakutsk</div>`)[0];
+                popup_9a4445153ff850527b6fab545ddbf7a4.setContent(html_5ee1016099e333fc9f525d762960c668);
+            
+        
+
+        marker_c3eafbf3e71569765eb56d32fd0ad2a0.bindPopup(popup_9a4445153ff850527b6fab545ddbf7a4)
+        ;
+
+        
+    
+    
+            var marker_43fbb7b665bf869c5edc8697696538f6 = L.marker(
+                [62.534698486328125, 114.03900146484375],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_897e5edd9fba72bbd000427bd5c780c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_43fbb7b665bf869c5edc8697696538f6.setIcon(icon_897e5edd9fba72bbd000427bd5c780c8);
+        
+    
+        var popup_5e15d1211b71688fee1446843bbbcef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f59ddab80392cb56b10509cb70125a2 = $(`<div id="html_2f59ddab80392cb56b10509cb70125a2" style="width: 100.0%; height: 100.0%;">Mirny Airport Timezone: Asia/Yakutsk</div>`)[0];
+                popup_5e15d1211b71688fee1446843bbbcef7.setContent(html_2f59ddab80392cb56b10509cb70125a2);
+            
+        
+
+        marker_43fbb7b665bf869c5edc8697696538f6.bindPopup(popup_5e15d1211b71688fee1446843bbbcef7)
+        ;
+
+        
+    
+    
+            var marker_eabf82e291e3fc8237e50deab1788760 = L.marker(
+                [48.52799987793, 135.18800354004],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_4724357596fd0b7e947b0afb1d8924d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_eabf82e291e3fc8237e50deab1788760.setIcon(icon_4724357596fd0b7e947b0afb1d8924d5);
+        
+    
+        var popup_ca837511a82ba79fff3ca50f68ed37f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96bce94936d04059a06078e3d6428a41 = $(`<div id="html_96bce94936d04059a06078e3d6428a41" style="width: 100.0%; height: 100.0%;">Khabarovsk-Novy Airport Timezone: Asia/Vladivostok</div>`)[0];
+                popup_ca837511a82ba79fff3ca50f68ed37f9.setContent(html_96bce94936d04059a06078e3d6428a41);
+            
+        
+
+        marker_eabf82e291e3fc8237e50deab1788760.bindPopup(popup_ca837511a82ba79fff3ca50f68ed37f9)
+        ;
+
+        
+    
+    
+            var marker_78450639edd5f6af9765ad3774b7c514 = L.marker(
+                [53.16790008544922, 158.45399475097656],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_14111239cfff11726c0d0889bd1712f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_78450639edd5f6af9765ad3774b7c514.setIcon(icon_14111239cfff11726c0d0889bd1712f5);
+        
+    
+        var popup_17168fa4d35107abb6b30b14f31e39be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c74eeeb7fb23e8961719bb6a27ba0b18 = $(`<div id="html_c74eeeb7fb23e8961719bb6a27ba0b18" style="width: 100.0%; height: 100.0%;">Yelizovo Airport Timezone: Asia/Kamchatka</div>`)[0];
+                popup_17168fa4d35107abb6b30b14f31e39be.setContent(html_c74eeeb7fb23e8961719bb6a27ba0b18);
+            
+        
+
+        marker_78450639edd5f6af9765ad3774b7c514.bindPopup(popup_17168fa4d35107abb6b30b14f31e39be)
+        ;
+
+        
+    
+    
+            var marker_230d8fe6ca72104e65a8f64615bf6bf8 = L.marker(
+                [46.88869857788086, 142.71800231933594],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_b48884326f5d62dc74acb28567cea4ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_230d8fe6ca72104e65a8f64615bf6bf8.setIcon(icon_b48884326f5d62dc74acb28567cea4ce);
+        
+    
+        var popup_316669f964800cf320e9bf8cf8f2da13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_148d59d262ec1d4cc92f9fd8b93631a0 = $(`<div id="html_148d59d262ec1d4cc92f9fd8b93631a0" style="width: 100.0%; height: 100.0%;">Yuzhno-Sakhalinsk Airport Timezone: Asia/Sakhalin</div>`)[0];
+                popup_316669f964800cf320e9bf8cf8f2da13.setContent(html_148d59d262ec1d4cc92f9fd8b93631a0);
+            
+        
+
+        marker_230d8fe6ca72104e65a8f64615bf6bf8.bindPopup(popup_316669f964800cf320e9bf8cf8f2da13)
+        ;
+
+        
+    
+    
+            var marker_b445c2c3c58698afb600b779783fb169 = L.marker(
+                [43.39899826049805, 132.1479949951172],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_e70e8faafcc2e3ee91fef85641868b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b445c2c3c58698afb600b779783fb169.setIcon(icon_e70e8faafcc2e3ee91fef85641868b02);
+        
+    
+        var popup_b574281f15c2993619ab818639559c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f106eea952787ff61f07c624d528523 = $(`<div id="html_0f106eea952787ff61f07c624d528523" style="width: 100.0%; height: 100.0%;">Vladivostok International Airport Timezone: Asia/Vladivostok</div>`)[0];
+                popup_b574281f15c2993619ab818639559c53.setContent(html_0f106eea952787ff61f07c624d528523);
+            
+        
+
+        marker_b445c2c3c58698afb600b779783fb169.bindPopup(popup_b574281f15c2993619ab818639559c53)
+        ;
+
+        
+    
+    
+            var marker_4c7e510be8d4dcdb89c155c71e4860bb = L.marker(
+                [59.80030059814453, 30.262500762939453],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_52cada7279b748e214bebfbb3747bee1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4c7e510be8d4dcdb89c155c71e4860bb.setIcon(icon_52cada7279b748e214bebfbb3747bee1);
+        
+    
+        var popup_00c12b48f676c0fce6f08492c5d29595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1e5db73790f3e5679c688e36c2657be = $(`<div id="html_b1e5db73790f3e5679c688e36c2657be" style="width: 100.0%; height: 100.0%;">Pulkovo Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_00c12b48f676c0fce6f08492c5d29595.setContent(html_b1e5db73790f3e5679c688e36c2657be);
+            
+        
+
+        marker_4c7e510be8d4dcdb89c155c71e4860bb.bindPopup(popup_00c12b48f676c0fce6f08492c5d29595)
+        ;
+
+        
+    
+    
+            var marker_bf6f242ee9a830e5ff8cb54827faa712 = L.marker(
+                [54.88999938964844, 20.592599868774414],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_042cfcedfc0d41d0dd65c4a49afa34dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bf6f242ee9a830e5ff8cb54827faa712.setIcon(icon_042cfcedfc0d41d0dd65c4a49afa34dc);
+        
+    
+        var popup_2b9df1db4683054f20c51a6674934bff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aa753a4a60d380c1722f73a4398ba8e = $(`<div id="html_6aa753a4a60d380c1722f73a4398ba8e" style="width: 100.0%; height: 100.0%;">Khrabrovo Airport Timezone: Europe/Kaliningrad</div>`)[0];
+                popup_2b9df1db4683054f20c51a6674934bff.setContent(html_6aa753a4a60d380c1722f73a4398ba8e);
+            
+        
+
+        marker_bf6f242ee9a830e5ff8cb54827faa712.bindPopup(popup_2b9df1db4683054f20c51a6674934bff)
+        ;
+
+        
+    
+    
+            var marker_81bec0416292d8bb6cab657c935de63a = L.marker(
+                [55.27009963989258, 86.1072006225586],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_71c0afe627b73f570a1895df3295c98a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_81bec0416292d8bb6cab657c935de63a.setIcon(icon_71c0afe627b73f570a1895df3295c98a);
+        
+    
+        var popup_04c0647d618a9f0b489835c0ebf27786 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_942605e1c26d2f6ef2b1df27871ef817 = $(`<div id="html_942605e1c26d2f6ef2b1df27871ef817" style="width: 100.0%; height: 100.0%;">Kemerovo Airport Timezone: Asia/Novokuznetsk</div>`)[0];
+                popup_04c0647d618a9f0b489835c0ebf27786.setContent(html_942605e1c26d2f6ef2b1df27871ef817);
+            
+        
+
+        marker_81bec0416292d8bb6cab657c935de63a.bindPopup(popup_04c0647d618a9f0b489835c0ebf27786)
+        ;
+
+        
+    
+    
+            var marker_7419a04992590b5784ca2826ce1ffbb8 = L.marker(
+                [55.305801, 61.5033],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_b62faa30a2e59a8c79cc31a05d81926c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_7419a04992590b5784ca2826ce1ffbb8.setIcon(icon_b62faa30a2e59a8c79cc31a05d81926c);
+        
+    
+        var popup_2a71629409019a867b77acbfc452472c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da7eccf16d109ed2eb8c2b865fc37f3b = $(`<div id="html_da7eccf16d109ed2eb8c2b865fc37f3b" style="width: 100.0%; height: 100.0%;">Chelyabinsk Balandino Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_2a71629409019a867b77acbfc452472c.setContent(html_da7eccf16d109ed2eb8c2b865fc37f3b);
+            
+        
+
+        marker_7419a04992590b5784ca2826ce1ffbb8.bindPopup(popup_2a71629409019a867b77acbfc452472c)
+        ;
+
+        
+    
+    
+            var marker_9bef2f56831fc11751dfb273b1272938 = L.marker(
+                [53.39310073852539, 58.755699157714844],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_68b3b4526d153e0de4be7d840afd2b44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_9bef2f56831fc11751dfb273b1272938.setIcon(icon_68b3b4526d153e0de4be7d840afd2b44);
+        
+    
+        var popup_dd93f9fa60a8447a8b74e6681984c27e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cddc8a64d91555dd28eddbe1589008a5 = $(`<div id="html_cddc8a64d91555dd28eddbe1589008a5" style="width: 100.0%; height: 100.0%;">Magnitogorsk International Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_dd93f9fa60a8447a8b74e6681984c27e.setContent(html_cddc8a64d91555dd28eddbe1589008a5);
+            
+        
+
+        marker_9bef2f56831fc11751dfb273b1272938.bindPopup(popup_dd93f9fa60a8447a8b74e6681984c27e)
+        ;
+
+        
+    
+    
+            var marker_4ae60fcd75ae3b1fe10616dbc637e5b7 = L.marker(
+                [57.914501190186, 56.021198272705],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_67f12005e0f8b10b8f4d27f383b261e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_4ae60fcd75ae3b1fe10616dbc637e5b7.setIcon(icon_67f12005e0f8b10b8f4d27f383b261e2);
+        
+    
+        var popup_07f2026f539f41d3b57842f9fb5db08d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b13d832f4a2fe9943efcf48108a678ba = $(`<div id="html_b13d832f4a2fe9943efcf48108a678ba" style="width: 100.0%; height: 100.0%;">Bolshoye Savino Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_07f2026f539f41d3b57842f9fb5db08d.setContent(html_b13d832f4a2fe9943efcf48108a678ba);
+            
+        
+
+        marker_4ae60fcd75ae3b1fe10616dbc637e5b7.bindPopup(popup_07f2026f539f41d3b57842f9fb5db08d)
+        ;
+
+        
+    
+    
+            var marker_22ef20bbd01b4d5680062ddea5d78c55 = L.marker(
+                [61.34370040893555, 73.40180206298828],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_18460608403245c07a69db3d026a9535 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_22ef20bbd01b4d5680062ddea5d78c55.setIcon(icon_18460608403245c07a69db3d026a9535);
+        
+    
+        var popup_fa481662935a5f68d759f134fea6877f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31955f332e12e86c523ee9f7cf83c33f = $(`<div id="html_31955f332e12e86c523ee9f7cf83c33f" style="width: 100.0%; height: 100.0%;">Surgut Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_fa481662935a5f68d759f134fea6877f.setContent(html_31955f332e12e86c523ee9f7cf83c33f);
+            
+        
+
+        marker_22ef20bbd01b4d5680062ddea5d78c55.bindPopup(popup_fa481662935a5f68d759f134fea6877f)
+        ;
+
+        
+    
+    
+            var marker_4ab7e6573866268ad3d2bd026a5531e4 = L.marker(
+                [53.214199066199996, 34.176399231],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_864a8a0c49ae8b71029597d51776a4c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4ab7e6573866268ad3d2bd026a5531e4.setIcon(icon_864a8a0c49ae8b71029597d51776a4c4);
+        
+    
+        var popup_ce544a8097b09e49946ff7805d84dd05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d610f0393f949cb65032970b2814f422 = $(`<div id="html_d610f0393f949cb65032970b2814f422" style="width: 100.0%; height: 100.0%;">Bryansk Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_ce544a8097b09e49946ff7805d84dd05.setContent(html_d610f0393f949cb65032970b2814f422);
+            
+        
+
+        marker_4ab7e6573866268ad3d2bd026a5531e4.bindPopup(popup_ce544a8097b09e49946ff7805d84dd05)
+        ;
+
+        
+    
+    
+            var marker_735d9ac1f02d62d213509dfdc9e78b59 = L.marker(
+                [44.225101470947266, 43.08190155029297],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_d86ebc515deec6f42c62a2046866d296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_735d9ac1f02d62d213509dfdc9e78b59.setIcon(icon_d86ebc515deec6f42c62a2046866d296);
+        
+    
+        var popup_16d56916717cb6f5aa7b67b43fb015d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_430e43075bc8b9aa99b743bfb25e1e8e = $(`<div id="html_430e43075bc8b9aa99b743bfb25e1e8e" style="width: 100.0%; height: 100.0%;">Mineralnyye Vody Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_16d56916717cb6f5aa7b67b43fb015d5.setContent(html_430e43075bc8b9aa99b743bfb25e1e8e);
+            
+        
+
+        marker_735d9ac1f02d62d213509dfdc9e78b59.bindPopup(popup_16d56916717cb6f5aa7b67b43fb015d5)
+        ;
+
+        
+    
+    
+            var marker_3abbbc66e82db5ca852a907319a2f5aa = L.marker(
+                [45.10919952392578, 42.11280059814453],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_23da62ea336ec35badb1c67774aaf4b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_3abbbc66e82db5ca852a907319a2f5aa.setIcon(icon_23da62ea336ec35badb1c67774aaf4b9);
+        
+    
+        var popup_dde803d8adafb23ad1063396729ba2b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b74d14813afda5547a5172692cec5a6e = $(`<div id="html_b74d14813afda5547a5172692cec5a6e" style="width: 100.0%; height: 100.0%;">Stavropol Shpakovskoye Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_dde803d8adafb23ad1063396729ba2b4.setContent(html_b74d14813afda5547a5172692cec5a6e);
+            
+        
+
+        marker_3abbbc66e82db5ca852a907319a2f5aa.bindPopup(popup_dde803d8adafb23ad1063396729ba2b4)
+        ;
+
+        
+    
+    
+            var marker_98b6d3221fb574d78dff6e6937778b67 = L.marker(
+                [46.2832984924, 48.0063018799],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_988a1ab0502d89d3983a94a9cb8602f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_98b6d3221fb574d78dff6e6937778b67.setIcon(icon_988a1ab0502d89d3983a94a9cb8602f5);
+        
+    
+        var popup_f0d4d01d7edc3f7e990b1a4c332ac6fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fa0548777646ea303bd391cd74a6405 = $(`<div id="html_8fa0548777646ea303bd391cd74a6405" style="width: 100.0%; height: 100.0%;">Astrakhan Airport Timezone: Europe/Samara</div>`)[0];
+                popup_f0d4d01d7edc3f7e990b1a4c332ac6fb.setContent(html_8fa0548777646ea303bd391cd74a6405);
+            
+        
+
+        marker_98b6d3221fb574d78dff6e6937778b67.bindPopup(popup_f0d4d01d7edc3f7e990b1a4c332ac6fb)
+        ;
+
+        
+    
+    
+            var marker_341987f856b4289e91c81adb02d48dcf = L.marker(
+                [60.94929885864258, 76.48359680175781],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_cecb98863b6e0188fc92f3c6d08bc7d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_341987f856b4289e91c81adb02d48dcf.setIcon(icon_cecb98863b6e0188fc92f3c6d08bc7d1);
+        
+    
+        var popup_c09bc46a45184c13f01db0091d2d6b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6338299c45ba65672c5f6d22c8b5d5c2 = $(`<div id="html_6338299c45ba65672c5f6d22c8b5d5c2" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_c09bc46a45184c13f01db0091d2d6b16.setContent(html_6338299c45ba65672c5f6d22c8b5d5c2);
+            
+        
+
+        marker_341987f856b4289e91c81adb02d48dcf.bindPopup(popup_c09bc46a45184c13f01db0091d2d6b16)
+        ;
+
+        
+    
+    
+            var marker_4afdc3fe2d4d9bae6c5b592970b9a4db = L.marker(
+                [56.743099212646, 60.802700042725],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_22a96c212f3018721f566e366507c6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_4afdc3fe2d4d9bae6c5b592970b9a4db.setIcon(icon_22a96c212f3018721f566e366507c6de);
+        
+    
+        var popup_349b71d32c7a6bbe6e92c92f7eafe8bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61461b31b3f49f85b3885ab7c194831c = $(`<div id="html_61461b31b3f49f85b3885ab7c194831c" style="width: 100.0%; height: 100.0%;">Koltsovo Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_349b71d32c7a6bbe6e92c92f7eafe8bb.setContent(html_61461b31b3f49f85b3885ab7c194831c);
+            
+        
+
+        marker_4afdc3fe2d4d9bae6c5b592970b9a4db.bindPopup(popup_349b71d32c7a6bbe6e92c92f7eafe8bb)
+        ;
+
+        
+    
+    
+            var marker_142adc60ddcb071fd629a1bcf4a55a21 = L.marker(
+                [55.972599, 37.4146],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_5d3d8a54fc40a8328a43a193abaa37fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_142adc60ddcb071fd629a1bcf4a55a21.setIcon(icon_5d3d8a54fc40a8328a43a193abaa37fb);
+        
+    
+        var popup_48373e32b084ecf870320bf60042535c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cc1fa66f6fa8d6a1f9a7af3e44fd242 = $(`<div id="html_0cc1fa66f6fa8d6a1f9a7af3e44fd242" style="width: 100.0%; height: 100.0%;">Sheremetyevo International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_48373e32b084ecf870320bf60042535c.setContent(html_0cc1fa66f6fa8d6a1f9a7af3e44fd242);
+            
+        
+
+        marker_142adc60ddcb071fd629a1bcf4a55a21.bindPopup(popup_48373e32b084ecf870320bf60042535c)
+        ;
+
+        
+    
+    
+            var marker_d403ce77224607b8117c9f529e3a57ab = L.marker(
+                [51.81420135498047, 39.22959899902344],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_920ba0001e22ede4c1bb8be872254408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d403ce77224607b8117c9f529e3a57ab.setIcon(icon_920ba0001e22ede4c1bb8be872254408);
+        
+    
+        var popup_65dd6e2dc509f93f63686cf436f3ae22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a965ad02a65bc1779f15b20cceda3a27 = $(`<div id="html_a965ad02a65bc1779f15b20cceda3a27" style="width: 100.0%; height: 100.0%;">Voronezh International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_65dd6e2dc509f93f63686cf436f3ae22.setContent(html_a965ad02a65bc1779f15b20cceda3a27);
+            
+        
+
+        marker_d403ce77224607b8117c9f529e3a57ab.bindPopup(popup_65dd6e2dc509f93f63686cf436f3ae22)
+        ;
+
+        
+    
+    
+            var marker_09e9302013a1d55c67af2633d2649b8e = L.marker(
+                [55.5914993286, 37.2615013123],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_a6c628e51a7882203cead8e41df0ba9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_09e9302013a1d55c67af2633d2649b8e.setIcon(icon_a6c628e51a7882203cead8e41df0ba9d);
+        
+    
+        var popup_8e3f510529f0b4cacad2710a0ec10cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2bc3184bc0cfb641bb94cbe48e8d9e = $(`<div id="html_cb2bc3184bc0cfb641bb94cbe48e8d9e" style="width: 100.0%; height: 100.0%;">Vnukovo International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_8e3f510529f0b4cacad2710a0ec10cf1.setContent(html_cb2bc3184bc0cfb641bb94cbe48e8d9e);
+            
+        
+
+        marker_09e9302013a1d55c67af2633d2649b8e.bindPopup(popup_8e3f510529f0b4cacad2710a0ec10cf1)
+        ;
+
+        
+    
+    
+            var marker_539756433060b3b5be35a7dce10fce42 = L.marker(
+                [61.64699935913086, 50.84510040283203],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_ff09f6c913dc74db8eb6de9092cae0fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_539756433060b3b5be35a7dce10fce42.setIcon(icon_ff09f6c913dc74db8eb6de9092cae0fe);
+        
+    
+        var popup_68964c7aa4ef880774223808f32bc8b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48e7a1116f38ec671a904982440a2a61 = $(`<div id="html_48e7a1116f38ec671a904982440a2a61" style="width: 100.0%; height: 100.0%;">Syktyvkar Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_68964c7aa4ef880774223808f32bc8b4.setContent(html_48e7a1116f38ec671a904982440a2a61);
+            
+        
+
+        marker_539756433060b3b5be35a7dce10fce42.bindPopup(popup_68964c7aa4ef880774223808f32bc8b4)
+        ;
+
+        
+    
+    
+            var marker_7bc221a35b07a4d1bad5e4458740f735 = L.marker(
+                [53.504901885986, 50.16429901123],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_a6a0da43811f19d895ccbdcf2df2b280 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_7bc221a35b07a4d1bad5e4458740f735.setIcon(icon_a6a0da43811f19d895ccbdcf2df2b280);
+        
+    
+        var popup_9e1ee023625566956351c50ee76ad97e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c556ee1cf54f6fa1e3c42af1880acf92 = $(`<div id="html_c556ee1cf54f6fa1e3c42af1880acf92" style="width: 100.0%; height: 100.0%;">Kurumoch International Airport Timezone: Europe/Samara</div>`)[0];
+                popup_9e1ee023625566956351c50ee76ad97e.setContent(html_c556ee1cf54f6fa1e3c42af1880acf92);
+            
+        
+
+        marker_7bc221a35b07a4d1bad5e4458740f735.bindPopup(popup_9e1ee023625566956351c50ee76ad97e)
+        ;
+
+        
+    
+    
+            var marker_ce360595bac1c9a3d737dabedd2f571a = L.marker(
+                [55.40879821777344, 37.90629959106445],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_3f258067fa3accb17697d9e9a5a20349 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ce360595bac1c9a3d737dabedd2f571a.setIcon(icon_3f258067fa3accb17697d9e9a5a20349);
+        
+    
+        var popup_5fa0dd50774c599a68b7680308545841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fedef87e37baf1f006db692d0e9d5e0 = $(`<div id="html_5fedef87e37baf1f006db692d0e9d5e0" style="width: 100.0%; height: 100.0%;">Domodedovo International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_5fa0dd50774c599a68b7680308545841.setContent(html_5fedef87e37baf1f006db692d0e9d5e0);
+            
+        
+
+        marker_ce360595bac1c9a3d737dabedd2f571a.bindPopup(popup_5fa0dd50774c599a68b7680308545841)
+        ;
+
+        
+    
+    
+            var marker_41848b0ea2f435df96c2e66213f9b820 = L.marker(
+                [57.189601898199996, 65.3243026733],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_9dfe341a12a44145ee7fa4f5513eb5e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_41848b0ea2f435df96c2e66213f9b820.setIcon(icon_9dfe341a12a44145ee7fa4f5513eb5e9);
+        
+    
+        var popup_b76522e1e6c4f7d15730db138752c5ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcc362921a11b502b1a43e38bbaec6a8 = $(`<div id="html_fcc362921a11b502b1a43e38bbaec6a8" style="width: 100.0%; height: 100.0%;">Roshchino International Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_b76522e1e6c4f7d15730db138752c5ef.setContent(html_fcc362921a11b502b1a43e38bbaec6a8);
+            
+        
+
+        marker_41848b0ea2f435df96c2e66213f9b820.bindPopup(popup_b76522e1e6c4f7d15730db138752c5ef)
+        ;
+
+        
+    
+    
+            var marker_8891908fe4191e9632e30eabf1cf033d = L.marker(
+                [56.230098724365, 43.784000396729],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_9c6b6e330cba29fe520533dbe4a32cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_8891908fe4191e9632e30eabf1cf033d.setIcon(icon_9c6b6e330cba29fe520533dbe4a32cbb);
+        
+    
+        var popup_2c75b86c418a1f326db4457d08537b62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0bdc1486e81c88ea1888653c6babda4 = $(`<div id="html_e0bdc1486e81c88ea1888653c6babda4" style="width: 100.0%; height: 100.0%;">Nizhny Novgorod Strigino International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_2c75b86c418a1f326db4457d08537b62.setContent(html_e0bdc1486e81c88ea1888653c6babda4);
+            
+        
+
+        marker_8891908fe4191e9632e30eabf1cf033d.bindPopup(popup_2c75b86c418a1f326db4457d08537b62)
+        ;
+
+        
+    
+    
+            var marker_4ee5485b72a9a77e2e9fdc254add8ccc = L.marker(
+                [56.380298614502, 85.208297729492],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_e1c169a850076726574fcc0c831a4543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_4ee5485b72a9a77e2e9fdc254add8ccc.setIcon(icon_e1c169a850076726574fcc0c831a4543);
+        
+    
+        var popup_2a052714fb23bd8ba1f03a5f27dec64f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbe4cf28c5f22914d8718d7a285e0d08 = $(`<div id="html_fbe4cf28c5f22914d8718d7a285e0d08" style="width: 100.0%; height: 100.0%;">Bogashevo Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_2a052714fb23bd8ba1f03a5f27dec64f.setContent(html_fbe4cf28c5f22914d8718d7a285e0d08);
+            
+        
+
+        marker_4ee5485b72a9a77e2e9fdc254add8ccc.bindPopup(popup_2a052714fb23bd8ba1f03a5f27dec64f)
+        ;
+
+        
+    
+    
+            var marker_a0548d704a923aeb1ad0941834ea352d = L.marker(
+                [58.13610076904297, 102.56500244140625],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_c53b245a47db3ea0bc3a1f9b4862ecf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_a0548d704a923aeb1ad0941834ea352d.setIcon(icon_c53b245a47db3ea0bc3a1f9b4862ecf3);
+        
+    
+        var popup_23d60ffd919983c04af96afc9a586815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6868e7962b849bc6e9fb6d6865d5ab0f = $(`<div id="html_6868e7962b849bc6e9fb6d6865d5ab0f" style="width: 100.0%; height: 100.0%;">Ust-Ilimsk Airport Timezone: Asia/Irkutsk</div>`)[0];
+                popup_23d60ffd919983c04af96afc9a586815.setContent(html_6868e7962b849bc6e9fb6d6865d5ab0f);
+            
+        
+
+        marker_a0548d704a923aeb1ad0941834ea352d.bindPopup(popup_23d60ffd919983c04af96afc9a586815)
+        ;
+
+        
+    
+    
+            var marker_bb983d84e3d7c619c070d7038bb11736 = L.marker(
+                [69.31109619140625, 87.33219909667969],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_29643f7cc3ccdba508a24470219c8d75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_bb983d84e3d7c619c070d7038bb11736.setIcon(icon_29643f7cc3ccdba508a24470219c8d75);
+        
+    
+        var popup_2b2738fd3e7f82922d1d9ddadafc7c87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_997adb7488a5426a665e4b835e8da32f = $(`<div id="html_997adb7488a5426a665e4b835e8da32f" style="width: 100.0%; height: 100.0%;">Norilsk-Alykel Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_2b2738fd3e7f82922d1d9ddadafc7c87.setContent(html_997adb7488a5426a665e4b835e8da32f);
+            
+        
+
+        marker_bb983d84e3d7c619c070d7038bb11736.bindPopup(popup_2b2738fd3e7f82922d1d9ddadafc7c87)
+        ;
+
+        
+    
+    
+            var marker_dbd766b967e521c25e16ccf10aa8288d = L.marker(
+                [64.60030364990234, 40.71670150756836],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_c1c71e6a298537538b4733db0d5d93f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_dbd766b967e521c25e16ccf10aa8288d.setIcon(icon_c1c71e6a298537538b4733db0d5d93f2);
+        
+    
+        var popup_b80b355dee91cab144a6730446faf240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c328b7704c3d9e1f2b7e0645cea41f70 = $(`<div id="html_c328b7704c3d9e1f2b7e0645cea41f70" style="width: 100.0%; height: 100.0%;">Talagi Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_b80b355dee91cab144a6730446faf240.setContent(html_c328b7704c3d9e1f2b7e0645cea41f70);
+            
+        
+
+        marker_dbd766b967e521c25e16ccf10aa8288d.bindPopup(popup_b80b355dee91cab144a6730446faf240)
+        ;
+
+        
+    
+    
+            var marker_32feab6c70672eae1ded2f9c16c0a475 = L.marker(
+                [51.564998626708984, 46.04669952392578],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_857d0c6f822debe825a491ccd0b5c763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_32feab6c70672eae1ded2f9c16c0a475.setIcon(icon_857d0c6f822debe825a491ccd0b5c763);
+        
+    
+        var popup_0546b16da743bd65ab11c336759970a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_181d8bcda502f989db43b6855514f34f = $(`<div id="html_181d8bcda502f989db43b6855514f34f" style="width: 100.0%; height: 100.0%;">Saratov Central Airport Timezone: Europe/Volgograd</div>`)[0];
+                popup_0546b16da743bd65ab11c336759970a8.setContent(html_181d8bcda502f989db43b6855514f34f);
+            
+        
+
+        marker_32feab6c70672eae1ded2f9c16c0a475.bindPopup(popup_0546b16da743bd65ab11c336759970a8)
+        ;
+
+        
+    
+    
+            var marker_68ac34f71750c788b06e8e07090c311f = L.marker(
+                [66.06939697265625, 76.52030181884766],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_a8ce5cf7ecd8ce9581db7dc2dd1938c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_68ac34f71750c788b06e8e07090c311f.setIcon(icon_a8ce5cf7ecd8ce9581db7dc2dd1938c4);
+        
+    
+        var popup_23342c53bd2fe576966a462562932319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ee3df4b0c3eb2ebc165b8d4a764b5ec = $(`<div id="html_8ee3df4b0c3eb2ebc165b8d4a764b5ec" style="width: 100.0%; height: 100.0%;">Novy Urengoy Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_23342c53bd2fe576966a462562932319.setContent(html_8ee3df4b0c3eb2ebc165b8d4a764b5ec);
+            
+        
+
+        marker_68ac34f71750c788b06e8e07090c311f.bindPopup(popup_23342c53bd2fe576966a462562932319)
+        ;
+
+        
+    
+    
+            var marker_4b3ca88244628fbe413e79184676a0b5 = L.marker(
+                [63.18330001831055, 75.2699966430664],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_e53bb779756fd4567acd9a8826cb4f8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_4b3ca88244628fbe413e79184676a0b5.setIcon(icon_e53bb779756fd4567acd9a8826cb4f8d);
+        
+    
+        var popup_0f03e99d30b9241f27d27b429314ac19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04f98c3436de8622871d1ecf328e4c9d = $(`<div id="html_04f98c3436de8622871d1ecf328e4c9d" style="width: 100.0%; height: 100.0%;">Noyabrsk Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_0f03e99d30b9241f27d27b429314ac19.setContent(html_04f98c3436de8622871d1ecf328e4c9d);
+            
+        
+
+        marker_4b3ca88244628fbe413e79184676a0b5.bindPopup(popup_0f03e99d30b9241f27d27b429314ac19)
+        ;
+
+        
+    
+    
+            var marker_9dfefc17dc98bf22b05c2791922c0644 = L.marker(
+                [63.566898345947266, 53.8046989440918],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_85cc7ee469930fbca3766942f5b672d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_9dfefc17dc98bf22b05c2791922c0644.setIcon(icon_85cc7ee469930fbca3766942f5b672d4);
+        
+    
+        var popup_b4ac94738c2bdf0fcc1d39ec189fc211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec9f2e7c4d5e57650d082c88d8964e79 = $(`<div id="html_ec9f2e7c4d5e57650d082c88d8964e79" style="width: 100.0%; height: 100.0%;">Ukhta Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_b4ac94738c2bdf0fcc1d39ec189fc211.setContent(html_ec9f2e7c4d5e57650d082c88d8964e79);
+            
+        
+
+        marker_9dfefc17dc98bf22b05c2791922c0644.bindPopup(popup_b4ac94738c2bdf0fcc1d39ec189fc211)
+        ;
+
+        
+    
+    
+            var marker_010887b90ab1efc115a2dc0bf5dc8ab7 = L.marker(
+                [66.00469970703125, 57.3671989440918],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_98867917a39ac0c3c0a5dbd90013a55f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_010887b90ab1efc115a2dc0bf5dc8ab7.setIcon(icon_98867917a39ac0c3c0a5dbd90013a55f);
+        
+    
+        var popup_b1e71dfe8b9e47e274ce80f77c3b8f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7658674db47ee5d2c92817edf7e60944 = $(`<div id="html_7658674db47ee5d2c92817edf7e60944" style="width: 100.0%; height: 100.0%;">Usinsk Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_b1e71dfe8b9e47e274ce80f77c3b8f45.setContent(html_7658674db47ee5d2c92817edf7e60944);
+            
+        
+
+        marker_010887b90ab1efc115a2dc0bf5dc8ab7.bindPopup(popup_b1e71dfe8b9e47e274ce80f77c3b8f45)
+        ;
+
+        
+    
+    
+            var marker_f4c79321ab5310777382bf5f8de337b0 = L.marker(
+                [67.63999938964844, 53.12189865112305],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_d2c6cd713869da8117c63fa9110f0f21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_f4c79321ab5310777382bf5f8de337b0.setIcon(icon_d2c6cd713869da8117c63fa9110f0f21);
+        
+    
+        var popup_2117305e6d8612da056504a64ba71b9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd6eaa3768c78bc3259431f40bc1c6e6 = $(`<div id="html_dd6eaa3768c78bc3259431f40bc1c6e6" style="width: 100.0%; height: 100.0%;">Naryan Mar Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_2117305e6d8612da056504a64ba71b9e.setContent(html_dd6eaa3768c78bc3259431f40bc1c6e6);
+            
+        
+
+        marker_f4c79321ab5310777382bf5f8de337b0.bindPopup(popup_2117305e6d8612da056504a64ba71b9e)
+        ;
+
+        
+    
+    
+            var marker_c4eaca3a99f7c2f9fb74e1550b301bd4 = L.marker(
+                [57.78390121459961, 28.395599365234375],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_f9e6901220d7cb6b99e7a61195fe64ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c4eaca3a99f7c2f9fb74e1550b301bd4.setIcon(icon_f9e6901220d7cb6b99e7a61195fe64ac);
+        
+    
+        var popup_f2e645af060e1bc33fcff06bce67e8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ae6c480176f224a6129d5afacd1d2fe = $(`<div id="html_9ae6c480176f224a6129d5afacd1d2fe" style="width: 100.0%; height: 100.0%;">Pskov Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_f2e645af060e1bc33fcff06bce67e8b9.setContent(html_9ae6c480176f224a6129d5afacd1d2fe);
+            
+        
+
+        marker_c4eaca3a99f7c2f9fb74e1550b301bd4.bindPopup(popup_f2e645af060e1bc33fcff06bce67e8b9)
+        ;
+
+        
+    
+    
+            var marker_d665d83c1d359514ee6b83735cc577f3 = L.marker(
+                [62.190399169921875, 74.53379821777344],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_33426d65e9cc4e2e722030aa6520085a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_d665d83c1d359514ee6b83735cc577f3.setIcon(icon_33426d65e9cc4e2e722030aa6520085a);
+        
+    
+        var popup_bc5e31f1636676a37777c2a13674ea89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dead8229f183b18ac68347a9c088a33 = $(`<div id="html_9dead8229f183b18ac68347a9c088a33" style="width: 100.0%; height: 100.0%;">Kogalym International Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_bc5e31f1636676a37777c2a13674ea89.setContent(html_9dead8229f183b18ac68347a9c088a33);
+            
+        
+
+        marker_d665d83c1d359514ee6b83735cc577f3.bindPopup(popup_bc5e31f1636676a37777c2a13674ea89)
+        ;
+
+        
+    
+    
+            var marker_49770fad25c2a5cfc571aac6ad220271 = L.marker(
+                [56.172901153564, 92.493301391602],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_a6af9785bb218e17df41e8246bfcfb88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_49770fad25c2a5cfc571aac6ad220271.setIcon(icon_a6af9785bb218e17df41e8246bfcfb88);
+        
+    
+        var popup_64b59a7b3a7b1c721528f07ce81edb53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee66ee9f783a9176cf7c9c971d6cc2c = $(`<div id="html_6ee66ee9f783a9176cf7c9c971d6cc2c" style="width: 100.0%; height: 100.0%;">Yemelyanovo Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_64b59a7b3a7b1c721528f07ce81edb53.setContent(html_6ee66ee9f783a9176cf7c9c971d6cc2c);
+            
+        
+
+        marker_49770fad25c2a5cfc571aac6ad220271.bindPopup(popup_64b59a7b3a7b1c721528f07ce81edb53)
+        ;
+
+        
+    
+    
+            var marker_e22afb70ec31940af36c935eb873217b = L.marker(
+                [60.10329818725586, 64.82669830322266],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_8df415010b1b5c9795ddc3380e3307cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_e22afb70ec31940af36c935eb873217b.setIcon(icon_8df415010b1b5c9795ddc3380e3307cc);
+        
+    
+        var popup_b9da429f1f239436a7bb357a9bb29752 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49229bc064627d2a05949c0325ee55ff = $(`<div id="html_49229bc064627d2a05949c0325ee55ff" style="width: 100.0%; height: 100.0%;">Uray Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_b9da429f1f239436a7bb357a9bb29752.setContent(html_49229bc064627d2a05949c0325ee55ff);
+            
+        
+
+        marker_e22afb70ec31940af36c935eb873217b.bindPopup(popup_b9da429f1f239436a7bb357a9bb29752)
+        ;
+
+        
+    
+    
+            var marker_fce9916e4091b685378a7a387b4303ba = L.marker(
+                [56.93939971923828, 40.940799713134766],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_c7509285e5a9c6cb4649f9b07cf23495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fce9916e4091b685378a7a387b4303ba.setIcon(icon_c7509285e5a9c6cb4649f9b07cf23495);
+        
+    
+        var popup_5a4b56f550605ff9f7fc8b56b2ddbf3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_022b68a5433f608abca72d8dce8cc826 = $(`<div id="html_022b68a5433f608abca72d8dce8cc826" style="width: 100.0%; height: 100.0%;">Ivanovo South Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_5a4b56f550605ff9f7fc8b56b2ddbf3c.setContent(html_022b68a5433f608abca72d8dce8cc826);
+            
+        
+
+        marker_fce9916e4091b685378a7a387b4303ba.bindPopup(popup_5a4b56f550605ff9f7fc8b56b2ddbf3c)
+        ;
+
+        
+    
+    
+            var marker_7abbfa4e280ab8e8012f5f7162884bba = L.marker(
+                [66.4003982544, 112.029998779],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_3da8329cd136ea815b8e93d74946ba87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7abbfa4e280ab8e8012f5f7162884bba.setIcon(icon_3da8329cd136ea815b8e93d74946ba87);
+        
+    
+        var popup_987f243faa40ec2e98fb7e40c7cf55aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_955e0013912f9a147b5b111ab322a06a = $(`<div id="html_955e0013912f9a147b5b111ab322a06a" style="width: 100.0%; height: 100.0%;">Polyarny Airport Timezone: Asia/Yakutsk</div>`)[0];
+                popup_987f243faa40ec2e98fb7e40c7cf55aa.setContent(html_955e0013912f9a147b5b111ab322a06a);
+            
+        
+
+        marker_7abbfa4e280ab8e8012f5f7162884bba.bindPopup(popup_987f243faa40ec2e98fb7e40c7cf55aa)
+        ;
+
+        
+    
+    
+            var marker_1ea1290eef12abf892cca45dff2ba5ae = L.marker(
+                [50.409000396728516, 136.9340057373047],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_ebf2a24a05da078bb795b82ee855d3e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1ea1290eef12abf892cca45dff2ba5ae.setIcon(icon_ebf2a24a05da078bb795b82ee855d3e8);
+        
+    
+        var popup_70ed5ea10fe6ce256f30bda2fe96ebc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30e0d2c96f9e0d8d1b4a58799dd83665 = $(`<div id="html_30e0d2c96f9e0d8d1b4a58799dd83665" style="width: 100.0%; height: 100.0%;">Komsomolsk-on-Amur Airport Timezone: Asia/Vladivostok</div>`)[0];
+                popup_70ed5ea10fe6ce256f30bda2fe96ebc8.setContent(html_30e0d2c96f9e0d8d1b4a58799dd83665);
+            
+        
+
+        marker_1ea1290eef12abf892cca45dff2ba5ae.bindPopup(popup_70ed5ea10fe6ce256f30bda2fe96ebc8)
+        ;
+
+        
+    
+    
+            var marker_6d46b33d6198e248d8527af17eb09677 = L.marker(
+                [64.73490142822266, 177.74099731445312],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_dfbd523aafa24b09e286cf9b9db112c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6d46b33d6198e248d8527af17eb09677.setIcon(icon_dfbd523aafa24b09e286cf9b9db112c0);
+        
+    
+        var popup_383ee9b0f82b719b319d58fe4c124694 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c76bdc623344e3b1e398d0bc6bb680f = $(`<div id="html_4c76bdc623344e3b1e398d0bc6bb680f" style="width: 100.0%; height: 100.0%;">Ugolny Airport Timezone: Asia/Anadyr</div>`)[0];
+                popup_383ee9b0f82b719b319d58fe4c124694.setContent(html_4c76bdc623344e3b1e398d0bc6bb680f);
+            
+        
+
+        marker_6d46b33d6198e248d8527af17eb09677.bindPopup(popup_383ee9b0f82b719b319d58fe4c124694)
+        ;
+
+        
+    
+    
+            var marker_20a25af1c071d8536cd0bd4edac231b5 = L.marker(
+                [61.88520050048828, 34.154701232910156],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_9676cc91ae7b189c5ba1001d2fd262ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_20a25af1c071d8536cd0bd4edac231b5.setIcon(icon_9676cc91ae7b189c5ba1001d2fd262ca);
+        
+    
+        var popup_94912f4db3116c73ddaa5f0dae53b6fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7144743bd76c661a7f7516a70af7659 = $(`<div id="html_c7144743bd76c661a7f7516a70af7659" style="width: 100.0%; height: 100.0%;">Petrozavodsk Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_94912f4db3116c73ddaa5f0dae53b6fb.setContent(html_c7144743bd76c661a7f7516a70af7659);
+            
+        
+
+        marker_20a25af1c071d8536cd0bd4edac231b5.bindPopup(popup_94912f4db3116c73ddaa5f0dae53b6fb)
+        ;
+
+        
+    
+    
+            var marker_0922b0d7c850e17609238c243358a98a = L.marker(
+                [51.66939926147461, 94.40059661865234],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_cbf7e65e9c681971f158ced4713fb6b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_0922b0d7c850e17609238c243358a98a.setIcon(icon_cbf7e65e9c681971f158ced4713fb6b7);
+        
+    
+        var popup_54ca4e88d3b72057286e8f0db3a94d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb9224fb94fd4536ef0819697c56da58 = $(`<div id="html_eb9224fb94fd4536ef0819697c56da58" style="width: 100.0%; height: 100.0%;">Kyzyl Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_54ca4e88d3b72057286e8f0db3a94d89.setContent(html_eb9224fb94fd4536ef0819697c56da58);
+            
+        
+
+        marker_0922b0d7c850e17609238c243358a98a.bindPopup(popup_54ca4e88d3b72057286e8f0db3a94d89)
+        ;
+
+        
+    
+    
+            var marker_a0a70f44486c13f9b501992e97257690 = L.marker(
+                [53.8114013671875, 86.877197265625],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_b052bb82456530e3fa267e0ff2776b46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_a0a70f44486c13f9b501992e97257690.setIcon(icon_b052bb82456530e3fa267e0ff2776b46);
+        
+    
+        var popup_830a51dffac353a586a9e79aa4b00ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72cc31dc35a361fc8f5e6c361195d08b = $(`<div id="html_72cc31dc35a361fc8f5e6c361195d08b" style="width: 100.0%; height: 100.0%;">Spichenkovo Airport Timezone: Asia/Novokuznetsk</div>`)[0];
+                popup_830a51dffac353a586a9e79aa4b00ee4.setContent(html_72cc31dc35a361fc8f5e6c361195d08b);
+            
+        
+
+        marker_a0a70f44486c13f9b501992e97257690.bindPopup(popup_830a51dffac353a586a9e79aa4b00ee4)
+        ;
+
+        
+    
+    
+            var marker_7bd2db9dda7b84bd907555849fcb1ce3 = L.marker(
+                [43.298099517822266, 45.78409957885742],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_c25eb117bb4a203db1461cb5ed3b22b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7bd2db9dda7b84bd907555849fcb1ce3.setIcon(icon_c25eb117bb4a203db1461cb5ed3b22b5);
+        
+    
+        var popup_db8a4320dff3e204d6dfb099a51ae371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fdc905553458394d161abd4966f453d = $(`<div id="html_9fdc905553458394d161abd4966f453d" style="width: 100.0%; height: 100.0%;">Khankala Air Base Timezone: Europe/Moscow</div>`)[0];
+                popup_db8a4320dff3e204d6dfb099a51ae371.setContent(html_9fdc905553458394d161abd4966f453d);
+            
+        
+
+        marker_7bd2db9dda7b84bd907555849fcb1ce3.bindPopup(popup_db8a4320dff3e204d6dfb099a51ae371)
+        ;
+
+        
+    
+    
+            var marker_09525fa9f310a89d42323bd41ab02ba3 = L.marker(
+                [43.512901306152344, 43.636600494384766],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_367b7d64fcb3e9f1999c5ce51b7ac02f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_09525fa9f310a89d42323bd41ab02ba3.setIcon(icon_367b7d64fcb3e9f1999c5ce51b7ac02f);
+        
+    
+        var popup_da45865c990b4e185a478c1ad84b9fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_568a4cc9ac97b30bb550ca39bb1effda = $(`<div id="html_568a4cc9ac97b30bb550ca39bb1effda" style="width: 100.0%; height: 100.0%;">Nalchik Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_da45865c990b4e185a478c1ad84b9fe0.setContent(html_568a4cc9ac97b30bb550ca39bb1effda);
+            
+        
+
+        marker_09525fa9f310a89d42323bd41ab02ba3.bindPopup(popup_da45865c990b4e185a478c1ad84b9fe0)
+        ;
+
+        
+    
+    
+            var marker_7732ee2b71d3a8f199cc016e1f76183a = L.marker(
+                [43.2051010132, 44.6066017151],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_e278686e99be07d5585f15a4056116b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7732ee2b71d3a8f199cc016e1f76183a.setIcon(icon_e278686e99be07d5585f15a4056116b2);
+        
+    
+        var popup_340ea54630773822ffe4bcbb4c4acf49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b60c1e1f6e7cb2f631fee46da067f592 = $(`<div id="html_b60c1e1f6e7cb2f631fee46da067f592" style="width: 100.0%; height: 100.0%;">Beslan Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_340ea54630773822ffe4bcbb4c4acf49.setContent(html_b60c1e1f6e7cb2f631fee46da067f592);
+            
+        
+
+        marker_7732ee2b71d3a8f199cc016e1f76183a.bindPopup(popup_340ea54630773822ffe4bcbb4c4acf49)
+        ;
+
+        
+    
+    
+            var marker_54ace6b061eb376234060563be6b01e8 = L.marker(
+                [46.3739013671875, 44.33089828491211],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_b76b3b65752aebebfded8b06b55258f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_54ace6b061eb376234060563be6b01e8.setIcon(icon_b76b3b65752aebebfded8b06b55258f1);
+        
+    
+        var popup_8e8fd16a9b39228f48d88988c2a8c03f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f1fc62a3cde535771da9a8780c802c1 = $(`<div id="html_5f1fc62a3cde535771da9a8780c802c1" style="width: 100.0%; height: 100.0%;">Elista Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_8e8fd16a9b39228f48d88988c2a8c03f.setContent(html_5f1fc62a3cde535771da9a8780c802c1);
+            
+        
+
+        marker_54ace6b061eb376234060563be6b01e8.bindPopup(popup_8e8fd16a9b39228f48d88988c2a8c03f)
+        ;
+
+        
+    
+    
+            var marker_e1272f311b3c2c9e7b59b2863815ed6d = L.marker(
+                [66.5907974243164, 66.61100006103516],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_17d2b8ce559e76683501b2dac71fcde0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_e1272f311b3c2c9e7b59b2863815ed6d.setIcon(icon_17d2b8ce559e76683501b2dac71fcde0);
+        
+    
+        var popup_f254849076ba49d5e25d9bab726a4dff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61f5e37f11a987db2d317d9f5b33c41a = $(`<div id="html_61f5e37f11a987db2d317d9f5b33c41a" style="width: 100.0%; height: 100.0%;">Salekhard Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_f254849076ba49d5e25d9bab726a4dff.setContent(html_61f5e37f11a987db2d317d9f5b33c41a);
+            
+        
+
+        marker_e1272f311b3c2c9e7b59b2863815ed6d.bindPopup(popup_f254849076ba49d5e25d9bab726a4dff)
+        ;
+
+        
+    
+    
+            var marker_f365e1c7bd9b90cbd8b46bfc20ec1cd0 = L.marker(
+                [61.028499603271484, 69.08609771728516],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_fb95145af719638e278b739d2c893174 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_f365e1c7bd9b90cbd8b46bfc20ec1cd0.setIcon(icon_fb95145af719638e278b739d2c893174);
+        
+    
+        var popup_1e6fcfc07bb98199b04b15ab50ecfb64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_060ab212d5f6ed6c9a3352dc8148d4f3 = $(`<div id="html_060ab212d5f6ed6c9a3352dc8148d4f3" style="width: 100.0%; height: 100.0%;">Khanty Mansiysk Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_1e6fcfc07bb98199b04b15ab50ecfb64.setContent(html_060ab212d5f6ed6c9a3352dc8148d4f3);
+            
+        
+
+        marker_f365e1c7bd9b90cbd8b46bfc20ec1cd0.bindPopup(popup_1e6fcfc07bb98199b04b15ab50ecfb64)
+        ;
+
+        
+    
+    
+            var marker_adf1f356cbcea23f58bd8812c5e21d49 = L.marker(
+                [62.11000061035156, 65.61499786376953],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_333d7fc135c339d8be29dd2107910028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_adf1f356cbcea23f58bd8812c5e21d49.setIcon(icon_333d7fc135c339d8be29dd2107910028);
+        
+    
+        var popup_aa167ed73ce57de2c2ec16fece9eec57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006b37c8e03ab6798210978ed851ee39 = $(`<div id="html_006b37c8e03ab6798210978ed851ee39" style="width: 100.0%; height: 100.0%;">Nyagan Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_aa167ed73ce57de2c2ec16fece9eec57.setContent(html_006b37c8e03ab6798210978ed851ee39);
+            
+        
+
+        marker_adf1f356cbcea23f58bd8812c5e21d49.bindPopup(popup_aa167ed73ce57de2c2ec16fece9eec57)
+        ;
+
+        
+    
+    
+            var marker_d28fa0a6dd3179be48036dbd98e7816b = L.marker(
+                [61.326622009277344, 63.60191345214844],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_a33dca4092e30a0366538d4853550958 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_d28fa0a6dd3179be48036dbd98e7816b.setIcon(icon_a33dca4092e30a0366538d4853550958);
+        
+    
+        var popup_10453d72ae58c75d0875ea6ff10c624a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9378e3c2ba1eb133543c90e4e088b75 = $(`<div id="html_d9378e3c2ba1eb133543c90e4e088b75" style="width: 100.0%; height: 100.0%;">Sovetskiy Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_10453d72ae58c75d0875ea6ff10c624a.setContent(html_d9378e3c2ba1eb133543c90e4e088b75);
+            
+        
+
+        marker_d28fa0a6dd3179be48036dbd98e7816b.bindPopup(popup_10453d72ae58c75d0875ea6ff10c624a)
+        ;
+
+        
+    
+    
+            var marker_f27e7276bec68440530cd8a9106c9cbc = L.marker(
+                [56.82809829711914, 53.45750045776367],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_35a9159b0e1a04d6162ded4eb0b41ce4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_f27e7276bec68440530cd8a9106c9cbc.setIcon(icon_35a9159b0e1a04d6162ded4eb0b41ce4);
+        
+    
+        var popup_f732ddc7cbad2db1b4cc3980c825a965 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ace696719762d937a5e2480ea389864a = $(`<div id="html_ace696719762d937a5e2480ea389864a" style="width: 100.0%; height: 100.0%;">Izhevsk Airport Timezone: Europe/Samara</div>`)[0];
+                popup_f732ddc7cbad2db1b4cc3980c825a965.setContent(html_ace696719762d937a5e2480ea389864a);
+            
+        
+
+        marker_f27e7276bec68440530cd8a9106c9cbc.bindPopup(popup_f732ddc7cbad2db1b4cc3980c825a965)
+        ;
+
+        
+    
+    
+            var marker_2d019246981bd196418b2d068a9265a4 = L.marker(
+                [58.503299713135, 49.348300933838],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_db71c221b319f33761c5f69ff8ead470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_2d019246981bd196418b2d068a9265a4.setIcon(icon_db71c221b319f33761c5f69ff8ead470);
+        
+    
+        var popup_b3a6c788e3d4173ec159161a8624fb79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95382583e58d825bc24849f2c34e16c0 = $(`<div id="html_95382583e58d825bc24849f2c34e16c0" style="width: 100.0%; height: 100.0%;">Pobedilovo Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_b3a6c788e3d4173ec159161a8624fb79.setContent(html_95382583e58d825bc24849f2c34e16c0);
+            
+        
+
+        marker_2d019246981bd196418b2d068a9265a4.bindPopup(popup_b3a6c788e3d4173ec159161a8624fb79)
+        ;
+
+        
+    
+    
+            var marker_6ee2c6c0674147094ebe502ad89b113b = L.marker(
+                [65.48090362548828, 72.69889831542969],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_5931be0772ded4259c6d8413e43afbd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_6ee2c6c0674147094ebe502ad89b113b.setIcon(icon_5931be0772ded4259c6d8413e43afbd8);
+        
+    
+        var popup_6baf0445a1745575b40004dee22be014 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb1154e558abf6aa07a3040a68cdffa1 = $(`<div id="html_cb1154e558abf6aa07a3040a68cdffa1" style="width: 100.0%; height: 100.0%;">Nadym Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_6baf0445a1745575b40004dee22be014.setContent(html_cb1154e558abf6aa07a3040a68cdffa1);
+            
+        
+
+        marker_6ee2c6c0674147094ebe502ad89b113b.bindPopup(popup_6baf0445a1745575b40004dee22be014)
+        ;
+
+        
+    
+    
+            var marker_583afcae2f55feca80d0cd59f4895492 = L.marker(
+                [61.108299255371094, 72.6500015258789],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_f164cb215f436632e67449d5f4dd327e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_583afcae2f55feca80d0cd59f4895492.setIcon(icon_f164cb215f436632e67449d5f4dd327e);
+        
+    
+        var popup_bd9cdb823e3fd2404e685554b6e70435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c67eeff3f3d0c586a6afab6454c27229 = $(`<div id="html_c67eeff3f3d0c586a6afab6454c27229" style="width: 100.0%; height: 100.0%;">Nefteyugansk Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_bd9cdb823e3fd2404e685554b6e70435.setContent(html_c67eeff3f3d0c586a6afab6454c27229);
+            
+        
+
+        marker_583afcae2f55feca80d0cd59f4895492.bindPopup(popup_bd9cdb823e3fd2404e685554b6e70435)
+        ;
+
+        
+    
+    
+            var marker_d0bd30bc5b431244293d18a28c8ab52c = L.marker(
+                [55.47529983520508, 65.41560363769531],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_5a103ed1f8dec688c10e646064ac98fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_d0bd30bc5b431244293d18a28c8ab52c.setIcon(icon_5a103ed1f8dec688c10e646064ac98fe);
+        
+    
+        var popup_6110b6d6127b0ff384cdf5718aee95e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bf08955e9210b544cea4aa7259dcbac = $(`<div id="html_9bf08955e9210b544cea4aa7259dcbac" style="width: 100.0%; height: 100.0%;">Kurgan Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_6110b6d6127b0ff384cdf5718aee95e5.setContent(html_9bf08955e9210b544cea4aa7259dcbac);
+            
+        
+
+        marker_d0bd30bc5b431244293d18a28c8ab52c.bindPopup(popup_6110b6d6127b0ff384cdf5718aee95e5)
+        ;
+
+        
+    
+    
+            var marker_51f851c912b4917d20fe5ed2540fc540 = L.marker(
+                [50.643798828125, 36.5900993347168],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_280d0b2eb5588e629e30e3e9eb5d5eec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_51f851c912b4917d20fe5ed2540fc540.setIcon(icon_280d0b2eb5588e629e30e3e9eb5d5eec);
+        
+    
+        var popup_ac24126896b09e2b0df414567b75efb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28f72046dcbcb2a4d255ece59b782029 = $(`<div id="html_28f72046dcbcb2a4d255ece59b782029" style="width: 100.0%; height: 100.0%;">Belgorod International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_ac24126896b09e2b0df414567b75efb3.setContent(html_28f72046dcbcb2a4d255ece59b782029);
+            
+        
+
+        marker_51f851c912b4917d20fe5ed2540fc540.bindPopup(popup_ac24126896b09e2b0df414567b75efb3)
+        ;
+
+        
+    
+    
+            var marker_16ec75b75bd58465ceae2e5f7d67e57f = L.marker(
+                [51.7505989074707, 36.29560089111328],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_3c8516a3bd6e64ed253c1745c313313f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_16ec75b75bd58465ceae2e5f7d67e57f.setIcon(icon_3c8516a3bd6e64ed253c1745c313313f);
+        
+    
+        var popup_02b47f3b51695228c7bc55f7f1779662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ad5397acd1c6536c3b216250001208d = $(`<div id="html_5ad5397acd1c6536c3b216250001208d" style="width: 100.0%; height: 100.0%;">Kursk East Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_02b47f3b51695228c7bc55f7f1779662.setContent(html_5ad5397acd1c6536c3b216250001208d);
+            
+        
+
+        marker_16ec75b75bd58465ceae2e5f7d67e57f.bindPopup(popup_02b47f3b51695228c7bc55f7f1779662)
+        ;
+
+        
+    
+    
+            var marker_82eb8038d7b476c77701c63b94f1bc06 = L.marker(
+                [52.70280075073242, 39.53779983520508],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_c3ca685b47e892fc753092a238d8c63c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_82eb8038d7b476c77701c63b94f1bc06.setIcon(icon_c3ca685b47e892fc753092a238d8c63c);
+        
+    
+        var popup_1f8d641fa5ff90e54342f9226af28464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb0609ed442e1750615b53ed46e72a5 = $(`<div id="html_3bb0609ed442e1750615b53ed46e72a5" style="width: 100.0%; height: 100.0%;">Lipetsk Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_1f8d641fa5ff90e54342f9226af28464.setContent(html_3bb0609ed442e1750615b53ed46e72a5);
+            
+        
+
+        marker_82eb8038d7b476c77701c63b94f1bc06.bindPopup(popup_1f8d641fa5ff90e54342f9226af28464)
+        ;
+
+        
+    
+    
+            var marker_6097bd0f0e69a77cef2219855abcca21 = L.marker(
+                [67.48860168457031, 63.993099212646484],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_c9851d0cb2eee7db96812de7da9dcfa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_6097bd0f0e69a77cef2219855abcca21.setIcon(icon_c9851d0cb2eee7db96812de7da9dcfa0);
+        
+    
+        var popup_a8aad00fb87f57f0aaa0333077d90e69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8af7dd7f268320166f8e9498d197cb18 = $(`<div id="html_8af7dd7f268320166f8e9498d197cb18" style="width: 100.0%; height: 100.0%;">Vorkuta Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_a8aad00fb87f57f0aaa0333077d90e69.setContent(html_8af7dd7f268320166f8e9498d197cb18);
+            
+        
+
+        marker_6097bd0f0e69a77cef2219855abcca21.bindPopup(popup_a8aad00fb87f57f0aaa0333077d90e69)
+        ;
+
+        
+    
+    
+            var marker_91c45a29390ff5251111bf2ccea38ced = L.marker(
+                [54.63999938964844, 52.801700592041016],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_0984ad501a7b899fd7379e2b3d84ad04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_91c45a29390ff5251111bf2ccea38ced.setIcon(icon_0984ad501a7b899fd7379e2b3d84ad04);
+        
+    
+        var popup_d2efb052697a29a80cd596a721babf70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_981c2ccefca5cfabba08c5b669ae1917 = $(`<div id="html_981c2ccefca5cfabba08c5b669ae1917" style="width: 100.0%; height: 100.0%;">Bugulma Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_d2efb052697a29a80cd596a721babf70.setContent(html_981c2ccefca5cfabba08c5b669ae1917);
+            
+        
+
+        marker_91c45a29390ff5251111bf2ccea38ced.bindPopup(popup_d2efb052697a29a80cd596a721babf70)
+        ;
+
+        
+    
+    
+            var marker_bf2c9802fc73d479cd221a6934f143df = L.marker(
+                [56.700599670410156, 47.904701232910156],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_bfdaf4b20ec6052c702b4553e216f09a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_bf2c9802fc73d479cd221a6934f143df.setIcon(icon_bfdaf4b20ec6052c702b4553e216f09a);
+        
+    
+        var popup_be204a8077f43b236cad7c82f1e2de61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce484deb51cc7397c53f6bd612612c08 = $(`<div id="html_ce484deb51cc7397c53f6bd612612c08" style="width: 100.0%; height: 100.0%;">Yoshkar-Ola Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_be204a8077f43b236cad7c82f1e2de61.setContent(html_ce484deb51cc7397c53f6bd612612c08);
+            
+        
+
+        marker_bf2c9802fc73d479cd221a6934f143df.bindPopup(popup_be204a8077f43b236cad7c82f1e2de61)
+        ;
+
+        
+    
+    
+            var marker_6bd614bc0c065833dfa25a4b3a1da440 = L.marker(
+                [56.090301513671875, 47.3473014831543],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_00d6a133a6f96f55112679ff80bb361b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_6bd614bc0c065833dfa25a4b3a1da440.setIcon(icon_00d6a133a6f96f55112679ff80bb361b);
+        
+    
+        var popup_3f9b191662ac9d73812fd23fd3e25fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565fc539e1daa54f73c3651b40fad5f2 = $(`<div id="html_565fc539e1daa54f73c3651b40fad5f2" style="width: 100.0%; height: 100.0%;">Cheboksary Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_3f9b191662ac9d73812fd23fd3e25fc0.setContent(html_565fc539e1daa54f73c3651b40fad5f2);
+            
+        
+
+        marker_6bd614bc0c065833dfa25a4b3a1da440.bindPopup(popup_3f9b191662ac9d73812fd23fd3e25fc0)
+        ;
+
+        
+    
+    
+            var marker_565b8d8dd00c7b4a5c9b1f6d0c02638d = L.marker(
+                [54.4010009765625, 48.80270004272461],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_d790076eaac5d159b69e6aa760b5fc01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_565b8d8dd00c7b4a5c9b1f6d0c02638d.setIcon(icon_d790076eaac5d159b69e6aa760b5fc01);
+        
+    
+        var popup_342cbe2780332d6a9c168fdba967b1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0b5759b8ced31767f4a4fed50226600 = $(`<div id="html_e0b5759b8ced31767f4a4fed50226600" style="width: 100.0%; height: 100.0%;">Ulyanovsk East Airport Timezone: Europe/Samara</div>`)[0];
+                popup_342cbe2780332d6a9c168fdba967b1a1.setContent(html_e0b5759b8ced31767f4a4fed50226600);
+            
+        
+
+        marker_565b8d8dd00c7b4a5c9b1f6d0c02638d.bindPopup(popup_342cbe2780332d6a9c168fdba967b1a1)
+        ;
+
+        
+    
+    
+            var marker_e5b0cf3d1a523593dc0804f865abef59 = L.marker(
+                [51.0724983215332, 58.59560012817383],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_8c19954b56ac3cf1c980f279aa3c0e40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_e5b0cf3d1a523593dc0804f865abef59.setIcon(icon_8c19954b56ac3cf1c980f279aa3c0e40);
+        
+    
+        var popup_8db590e0c4c893d33881ff6bab8527fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83206b42b048cf846663d5bf02c5910d = $(`<div id="html_83206b42b048cf846663d5bf02c5910d" style="width: 100.0%; height: 100.0%;">Orsk Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_8db590e0c4c893d33881ff6bab8527fe.setContent(html_83206b42b048cf846663d5bf02c5910d);
+            
+        
+
+        marker_e5b0cf3d1a523593dc0804f865abef59.bindPopup(popup_8db590e0c4c893d33881ff6bab8527fe)
+        ;
+
+        
+    
+    
+            var marker_475223f20a1f853e4db11270b8443718 = L.marker(
+                [53.110599517822266, 45.02109909057617],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_de2d81eb8f19844bd8d433c76ae1c36f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_475223f20a1f853e4db11270b8443718.setIcon(icon_de2d81eb8f19844bd8d433c76ae1c36f);
+        
+    
+        var popup_5293fa5a47b4892d9b76cde9d0d333a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60b1ea0a9ef653119c1e36ec30b45eb8 = $(`<div id="html_60b1ea0a9ef653119c1e36ec30b45eb8" style="width: 100.0%; height: 100.0%;">Penza Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_5293fa5a47b4892d9b76cde9d0d333a2.setContent(html_60b1ea0a9ef653119c1e36ec30b45eb8);
+            
+        
+
+        marker_475223f20a1f853e4db11270b8443718.bindPopup(popup_5293fa5a47b4892d9b76cde9d0d333a2)
+        ;
+
+        
+    
+    
+            var marker_a0cdaff4de77773a0e1143b60e301d0f = L.marker(
+                [54.12512969970703, 45.212257385253906],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_db46bde67683a2795d1146286d566e3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_a0cdaff4de77773a0e1143b60e301d0f.setIcon(icon_db46bde67683a2795d1146286d566e3b);
+        
+    
+        var popup_8892edf6003e234604daed5e921728a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc02165768faf1e49de08f5d2d4ae2ae = $(`<div id="html_cc02165768faf1e49de08f5d2d4ae2ae" style="width: 100.0%; height: 100.0%;">Saransk Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_8892edf6003e234604daed5e921728a4.setContent(html_cc02165768faf1e49de08f5d2d4ae2ae);
+            
+        
+
+        marker_a0cdaff4de77773a0e1143b60e301d0f.bindPopup(popup_8892edf6003e234604daed5e921728a4)
+        ;
+
+        
+    
+    
+            var marker_05365df6152e95cc0bc8cd3e55b27348 = L.marker(
+                [52.806098937988, 41.482799530029],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_819b772023562b7c12156aae80ff0328 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_05365df6152e95cc0bc8cd3e55b27348.setIcon(icon_819b772023562b7c12156aae80ff0328);
+        
+    
+        var popup_bf4db787b0f0f49679ccf0aaa9d830f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6df86fcf9d4b6ca46772cc21b8eafaa6 = $(`<div id="html_6df86fcf9d4b6ca46772cc21b8eafaa6" style="width: 100.0%; height: 100.0%;">Donskoye Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_bf4db787b0f0f49679ccf0aaa9d830f6.setContent(html_6df86fcf9d4b6ca46772cc21b8eafaa6);
+            
+        
+
+        marker_05365df6152e95cc0bc8cd3e55b27348.bindPopup(popup_bf4db787b0f0f49679ccf0aaa9d830f6)
+        ;
+
+        
+    
+    
+            var marker_6e9bfd592fd21140ceb01f106b7c6afe = L.marker(
+                [56.8567008972168, 105.7300033569336],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_158547ba28b16ef3cd78dfec0d97689b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_6e9bfd592fd21140ceb01f106b7c6afe.setIcon(icon_158547ba28b16ef3cd78dfec0d97689b);
+        
+    
+        var popup_9f8a21a8d412c1dcfd49716fc64caa38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc72a529ada6497483bbd81034dbd3c1 = $(`<div id="html_bc72a529ada6497483bbd81034dbd3c1" style="width: 100.0%; height: 100.0%;">Ust-Kut Airport Timezone: Asia/Irkutsk</div>`)[0];
+                popup_9f8a21a8d412c1dcfd49716fc64caa38.setContent(html_bc72a529ada6497483bbd81034dbd3c1);
+            
+        
+
+        marker_6e9bfd592fd21140ceb01f106b7c6afe.bindPopup(popup_9f8a21a8d412c1dcfd49716fc64caa38)
+        ;
+
+        
+    
+    
+            var marker_0d446a510b5cf19762c5c902a8516943 = L.marker(
+                [44.5820926295, 38.0124807358],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_156977d1f718b2e544d92baea4160c9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0d446a510b5cf19762c5c902a8516943.setIcon(icon_156977d1f718b2e544d92baea4160c9d);
+        
+    
+        var popup_9c10e6cb4b2f17f0f455375434f7d854 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0586cace74dde30a1807c9e61eb88cc6 = $(`<div id="html_0586cace74dde30a1807c9e61eb88cc6" style="width: 100.0%; height: 100.0%;">Gelendzhik Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_9c10e6cb4b2f17f0f455375434f7d854.setContent(html_0586cace74dde30a1807c9e61eb88cc6);
+            
+        
+
+        marker_0d446a510b5cf19762c5c902a8516943.bindPopup(popup_9c10e6cb4b2f17f0f455375434f7d854)
+        ;
+
+        
+    
+    
+            var marker_e2e349761cb85689cff49f1e45bcf3fd = L.marker(
+                [57.560699462890625, 40.15739822387695],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_465fdfed1f4c2fda7178a169c6a23b17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e2e349761cb85689cff49f1e45bcf3fd.setIcon(icon_465fdfed1f4c2fda7178a169c6a23b17);
+        
+    
+        var popup_6335e7a9295270e191d53f20a567765b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a24f9f619f56ee307646871976d8d0ea = $(`<div id="html_a24f9f619f56ee307646871976d8d0ea" style="width: 100.0%; height: 100.0%;">Tunoshna Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_6335e7a9295270e191d53f20a567765b.setContent(html_a24f9f619f56ee307646871976d8d0ea);
+            
+        
+
+        marker_e2e349761cb85689cff49f1e45bcf3fd.bindPopup(popup_6335e7a9295270e191d53f20a567765b)
+        ;
+
+        
+    
+    
+            var marker_1a24600a4527a888e5c1f1fe18eff5bf = L.marker(
+                [55.564701080322266, 52.092498779296875],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_8c5fe8b3325237ea46c6669a0eca96b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_1a24600a4527a888e5c1f1fe18eff5bf.setIcon(icon_8c5fe8b3325237ea46c6669a0eca96b8);
+        
+    
+        var popup_9793747e9ecb2ba5391212a60b70dd3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e4a74ad48b995c55ef4cd7f95665d39 = $(`<div id="html_2e4a74ad48b995c55ef4cd7f95665d39" style="width: 100.0%; height: 100.0%;">Begishevo Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_9793747e9ecb2ba5391212a60b70dd3f.setContent(html_2e4a74ad48b995c55ef4cd7f95665d39);
+            
+        
+
+        marker_1a24600a4527a888e5c1f1fe18eff5bf.bindPopup(popup_9793747e9ecb2ba5391212a60b70dd3f)
+        ;
+
+        
+    
+    
+            var marker_552ee2de2e39a0b7edd6630d831ecaca = L.marker(
+                [54.26829910279999, 48.226699829100006],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_462a14ca7b892276e417bdaf8e8eeae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_552ee2de2e39a0b7edd6630d831ecaca.setIcon(icon_462a14ca7b892276e417bdaf8e8eeae6);
+        
+    
+        var popup_6bdd88501c01c80741231b99078096eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ae8115241a8655b6099f4a8f608cc6f = $(`<div id="html_8ae8115241a8655b6099f4a8f608cc6f" style="width: 100.0%; height: 100.0%;">Ulyanovsk Baratayevka Airport Timezone: Europe/Samara</div>`)[0];
+                popup_6bdd88501c01c80741231b99078096eb.setContent(html_8ae8115241a8655b6099f4a8f608cc6f);
+            
+        
+
+        marker_552ee2de2e39a0b7edd6630d831ecaca.bindPopup(popup_6bdd88501c01c80741231b99078096eb)
+        ;
+
+        
+    
+    
+            var marker_240fb20e991e8153ac9d0389d0ba725a = L.marker(
+                [60.709400177, 77.66000366210001],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_99def4dd31e67f3d3d4da1c237e79469 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_240fb20e991e8153ac9d0389d0ba725a.setIcon(icon_99def4dd31e67f3d3d4da1c237e79469);
+        
+    
+        var popup_f5082f175ef36ca327698f091b6bc59c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e59d157b21e8f382961d41547e6d6c41 = $(`<div id="html_e59d157b21e8f382961d41547e6d6c41" style="width: 100.0%; height: 100.0%;">Strezhevoy Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_f5082f175ef36ca327698f091b6bc59c.setContent(html_e59d157b21e8f382961d41547e6d6c41);
+            
+        
+
+        marker_240fb20e991e8153ac9d0389d0ba725a.bindPopup(popup_f5082f175ef36ca327698f091b6bc59c)
+        ;
+
+        
+    
+    
+            var marker_de27966849bb3c6c9f7abd4e1d0b954f = L.marker(
+                [63.686901092499994, 66.698600769],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_8fd19ee12fddb934c10cb9ad9d587875 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_de27966849bb3c6c9f7abd4e1d0b954f.setIcon(icon_8fd19ee12fddb934c10cb9ad9d587875);
+        
+    
+        var popup_6dd0136f397c11834e8804a5702ade4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dad79cf69b3b8dd53ac185806f4ad3d5 = $(`<div id="html_dad79cf69b3b8dd53ac185806f4ad3d5" style="width: 100.0%; height: 100.0%;">Beloyarskiy Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_6dd0136f397c11834e8804a5702ade4e.setContent(html_dad79cf69b3b8dd53ac185806f4ad3d5);
+            
+        
+
+        marker_de27966849bb3c6c9f7abd4e1d0b954f.bindPopup(popup_6dd0136f397c11834e8804a5702ade4e)
+        ;
+
+        
+    
+    
+            var marker_8afe30add5ee07750922ac77dda6078b = L.marker(
+                [54.5499992371, 36.3666687012],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_f6834151a0d2916dd12fdf554093955e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_8afe30add5ee07750922ac77dda6078b.setIcon(icon_f6834151a0d2916dd12fdf554093955e);
+        
+    
+        var popup_a81c29829ca501830a5a6a52b142d06c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75206d2a7d5aed8cfad877f202a11a43 = $(`<div id="html_75206d2a7d5aed8cfad877f202a11a43" style="width: 100.0%; height: 100.0%;">Grabtsevo Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_a81c29829ca501830a5a6a52b142d06c.setContent(html_75206d2a7d5aed8cfad877f202a11a43);
+            
+        
+
+        marker_8afe30add5ee07750922ac77dda6078b.bindPopup(popup_a81c29829ca501830a5a6a52b142d06c)
+        ;
+
+        
+    
+    
+            var marker_c002992608af801350039a9960ea72f9 = L.marker(
+                [51.9667015076, 85.8332977295],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_e3b9336cb47c06d5c2550161cd8f33d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_c002992608af801350039a9960ea72f9.setIcon(icon_e3b9336cb47c06d5c2550161cd8f33d7);
+        
+    
+        var popup_3c6721d58f0625d9fa2d8846bb031450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abb715f86b1a66751fcaba572a18ef0d = $(`<div id="html_abb715f86b1a66751fcaba572a18ef0d" style="width: 100.0%; height: 100.0%;">Gorno-Altaysk Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_3c6721d58f0625d9fa2d8846bb031450.setContent(html_abb715f86b1a66751fcaba572a18ef0d);
+            
+        
+
+        marker_c002992608af801350039a9960ea72f9.bindPopup(popup_3c6721d58f0625d9fa2d8846bb031450)
+        ;
+
+        
+    
+    
+            var marker_ced69c35340f7b31a1999b024d38f1ed = L.marker(
+                [45.034698486328, 39.170501708984],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_b354efc35170c4a7b3b7024c739b97e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ced69c35340f7b31a1999b024d38f1ed.setIcon(icon_b354efc35170c4a7b3b7024c739b97e3);
+        
+    
+        var popup_5c5c925edf22648cd96476e727ca8274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bf5790071d14435d7f8e7c11d5e6f27 = $(`<div id="html_7bf5790071d14435d7f8e7c11d5e6f27" style="width: 100.0%; height: 100.0%;">Krasnodar Pashkovsky International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_5c5c925edf22648cd96476e727ca8274.setContent(html_7bf5790071d14435d7f8e7c11d5e6f27);
+            
+        
+
+        marker_ced69c35340f7b31a1999b024d38f1ed.bindPopup(popup_5c5c925edf22648cd96476e727ca8274)
+        ;
+
+        
+    
+    
+            var marker_2bede4a3ff3486a1ac4cace9c8b5ff23 = L.marker(
+                [42.81679916381836, 47.65230178833008],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_6e9c10194b7d761380ec2942fba67fa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_2bede4a3ff3486a1ac4cace9c8b5ff23.setIcon(icon_6e9c10194b7d761380ec2942fba67fa8);
+        
+    
+        var popup_f9111990d8faa5114ba11cca184afff3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_851b9489e1c054ec06fc286771349de9 = $(`<div id="html_851b9489e1c054ec06fc286771349de9" style="width: 100.0%; height: 100.0%;">Uytash Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_f9111990d8faa5114ba11cca184afff3.setContent(html_851b9489e1c054ec06fc286771349de9);
+            
+        
+
+        marker_2bede4a3ff3486a1ac4cace9c8b5ff23.bindPopup(popup_f9111990d8faa5114ba11cca184afff3)
+        ;
+
+        
+    
+    
+            var marker_abe2f6ad7e7c7da6f0eb9cd05a1c118e = L.marker(
+                [55.606201171875, 49.278701782227],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_97f16b5a487d71f22d4667bf0068cc1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_abe2f6ad7e7c7da6f0eb9cd05a1c118e.setIcon(icon_97f16b5a487d71f22d4667bf0068cc1f);
+        
+    
+        var popup_1f60ae93bd80c60163e85773ffc04749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_474ecd589a12ce1278f25488d1cd2ba3 = $(`<div id="html_474ecd589a12ce1278f25488d1cd2ba3" style="width: 100.0%; height: 100.0%;">Kazan International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_1f60ae93bd80c60163e85773ffc04749.setContent(html_474ecd589a12ce1278f25488d1cd2ba3);
+            
+        
+
+        marker_abe2f6ad7e7c7da6f0eb9cd05a1c118e.bindPopup(popup_1f60ae93bd80c60163e85773ffc04749)
+        ;
+
+        
+    
+    
+            var marker_b22f22b89bc0cdeefeed58fccbd06062 = L.marker(
+                [51.795799255371094, 55.45669937133789],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_f3887d7f335cdacd412f195999cae775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_b22f22b89bc0cdeefeed58fccbd06062.setIcon(icon_f3887d7f335cdacd412f195999cae775);
+        
+    
+        var popup_968a3ae9c1960eaba59172c66a784f2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b21159e0a4bbd2aec8c8a8907bc65408 = $(`<div id="html_b21159e0a4bbd2aec8c8a8907bc65408" style="width: 100.0%; height: 100.0%;">Orenburg Central Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_968a3ae9c1960eaba59172c66a784f2d.setContent(html_b21159e0a4bbd2aec8c8a8907bc65408);
+            
+        
+
+        marker_b22f22b89bc0cdeefeed58fccbd06062.bindPopup(popup_968a3ae9c1960eaba59172c66a784f2d)
+        ;
+
+        
+    
+    
+            var marker_719154d3ae141e7d9e1965b173be88aa = L.marker(
+                [54.557498931885, 55.874401092529],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_060eec8d5acf71aa2943049c3ae50a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_719154d3ae141e7d9e1965b173be88aa.setIcon(icon_060eec8d5acf71aa2943049c3ae50a89);
+        
+    
+        var popup_28f086ef928757f305e430b4075931ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5868b3f937122065798a61d989a80df = $(`<div id="html_b5868b3f937122065798a61d989a80df" style="width: 100.0%; height: 100.0%;">Ufa International Airport Timezone: Asia/Yekaterinburg</div>`)[0];
+                popup_28f086ef928757f305e430b4075931ce.setContent(html_b5868b3f937122065798a61d989a80df);
+            
+        
+
+        marker_719154d3ae141e7d9e1965b173be88aa.bindPopup(popup_28f086ef928757f305e430b4075931ce)
+        ;
+
+        
+    
+    
+            var marker_4a4be4c001078731122384cea415da5e = L.marker(
+                [55.012599945068, 82.650703430176],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_0fdd1048d3affbcc90bb5947530bad1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_4a4be4c001078731122384cea415da5e.setIcon(icon_0fdd1048d3affbcc90bb5947530bad1c);
+        
+    
+        var popup_0f462a606c28a158457ce0d1f1755e12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e89315ccf88f9c1e7c57540639cee0dd = $(`<div id="html_e89315ccf88f9c1e7c57540639cee0dd" style="width: 100.0%; height: 100.0%;">Tolmachevo Airport Timezone: Asia/Novosibirsk</div>`)[0];
+                popup_0f462a606c28a158457ce0d1f1755e12.setContent(html_e89315ccf88f9c1e7c57540639cee0dd);
+            
+        
+
+        marker_4a4be4c001078731122384cea415da5e.bindPopup(popup_0f462a606c28a158457ce0d1f1755e12)
+        ;
+
+        
+    
+    
+            var marker_bd6b34f75509d503ce25a4443c105b7e = L.marker(
+                [59.273601532, 38.015800476100004],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_29ac26ca31debe0d0e9b0fe7f0fc8b5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_bd6b34f75509d503ce25a4443c105b7e.setIcon(icon_29ac26ca31debe0d0e9b0fe7f0fc8b5b);
+        
+    
+        var popup_ad8541c25ce3505afa190d8d859090aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fd46c676f94c4d32321743b7e999e04 = $(`<div id="html_8fd46c676f94c4d32321743b7e999e04" style="width: 100.0%; height: 100.0%;">Cherepovets Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_ad8541c25ce3505afa190d8d859090aa.setContent(html_8fd46c676f94c4d32321743b7e999e04);
+            
+        
+
+        marker_bd6b34f75509d503ce25a4443c105b7e.bindPopup(popup_ad8541c25ce3505afa190d8d859090aa)
+        ;
+
+        
+    
+    
+            var marker_b60404beb2319bc471080d171ba556fd = L.marker(
+                [54.96699905395508, 73.31050109863281],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_41986151b50dd0115596e157563d9912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_b60404beb2319bc471080d171ba556fd.setIcon(icon_41986151b50dd0115596e157563d9912);
+        
+    
+        var popup_2771032155882d4468998fcc577e2db5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23cd0778f4d107f4ce023f31fbec7af4 = $(`<div id="html_23cd0778f4d107f4ce023f31fbec7af4" style="width: 100.0%; height: 100.0%;">Omsk Central Airport Timezone: Asia/Omsk</div>`)[0];
+                popup_2771032155882d4468998fcc577e2db5.setContent(html_23cd0778f4d107f4ce023f31fbec7af4);
+            
+        
+
+        marker_b60404beb2319bc471080d171ba556fd.bindPopup(popup_2771032155882d4468998fcc577e2db5)
+        ;
+
+        
+    
+    
+            var marker_e70f80ec45df17efdec5d7c9e41f8094 = L.marker(
+                [47.2582015991, 39.8180999756],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_ef17f701d8f9f42802af94929ae8866d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e70f80ec45df17efdec5d7c9e41f8094.setIcon(icon_ef17f701d8f9f42802af94929ae8866d);
+        
+    
+        var popup_17855fd1396bd5b81dc4055fafb1af9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c929be1966dbb032d5282936e82ddeb = $(`<div id="html_7c929be1966dbb032d5282936e82ddeb" style="width: 100.0%; height: 100.0%;">Rostov-on-Don Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_17855fd1396bd5b81dc4055fafb1af9f.setContent(html_7c929be1966dbb032d5282936e82ddeb);
+            
+        
+
+        marker_e70f80ec45df17efdec5d7c9e41f8094.bindPopup(popup_17855fd1396bd5b81dc4055fafb1af9f)
+        ;
+
+        
+    
+    
+            var marker_d10dd4837e4b9ebf3e204b3192621014 = L.marker(
+                [43.449901580811, 39.956600189209],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_41b7baefbb6a160f2dc726275a048a37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d10dd4837e4b9ebf3e204b3192621014.setIcon(icon_41b7baefbb6a160f2dc726275a048a37);
+        
+    
+        var popup_c23d2de83934bc6b29a7014395515ace = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_924c88f5d916d4cce9cfba47bdfce452 = $(`<div id="html_924c88f5d916d4cce9cfba47bdfce452" style="width: 100.0%; height: 100.0%;">Sochi International Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_c23d2de83934bc6b29a7014395515ace.setContent(html_924c88f5d916d4cce9cfba47bdfce452);
+            
+        
+
+        marker_d10dd4837e4b9ebf3e204b3192621014.bindPopup(popup_c23d2de83934bc6b29a7014395515ace)
+        ;
+
+        
+    
+    
+            var marker_b38d363f071b91078c049489e1e541a0 = L.marker(
+                [48.782501220703125, 44.34550094604492],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_0a77d5c734cdfa1be30350faf9d3c142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_b38d363f071b91078c049489e1e541a0.setIcon(icon_0a77d5c734cdfa1be30350faf9d3c142);
+        
+    
+        var popup_83d46f13253b4bcf30890f9df8328ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f71968faa3c7c7d06936553438c87394 = $(`<div id="html_f71968faa3c7c7d06936553438c87394" style="width: 100.0%; height: 100.0%;">Volgograd International Airport Timezone: Europe/Volgograd</div>`)[0];
+                popup_83d46f13253b4bcf30890f9df8328ef8.setContent(html_f71968faa3c7c7d06936553438c87394);
+            
+        
+
+        marker_b38d363f071b91078c049489e1e541a0.bindPopup(popup_83d46f13253b4bcf30890f9df8328ef8)
+        ;
+
+        
+    
+    
+            var marker_9afb6b2f9e37d490e6e79184f05d5f8a = L.marker(
+                [50.42539978027344, 127.41200256347656],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_dd608fc488f47dcb625feb0054ffd72a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9afb6b2f9e37d490e6e79184f05d5f8a.setIcon(icon_dd608fc488f47dcb625feb0054ffd72a);
+        
+    
+        var popup_d9e5d53aafc3ccf62f5e45dc14737258 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ce63cc32efe01d9b9957488c6e5691 = $(`<div id="html_60ce63cc32efe01d9b9957488c6e5691" style="width: 100.0%; height: 100.0%;">Ignatyevo Airport Timezone: Asia/Yakutsk</div>`)[0];
+                popup_d9e5d53aafc3ccf62f5e45dc14737258.setContent(html_60ce63cc32efe01d9b9957488c6e5691);
+            
+        
+
+        marker_9afb6b2f9e37d490e6e79184f05d5f8a.bindPopup(popup_d9e5d53aafc3ccf62f5e45dc14737258)
+        ;
+
+        
+    
+    
+            var marker_2aa648509787250510fb04b9f933df63 = L.marker(
+                [59.9109992980957, 150.72000122070312],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_e38d2e055ca0fe39af1d2121a7b10c02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_2aa648509787250510fb04b9f933df63.setIcon(icon_e38d2e055ca0fe39af1d2121a7b10c02);
+        
+    
+        var popup_86f92a2220a94de622ed17ae813629f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_112a288a0f4894140bd9c98768a05fcc = $(`<div id="html_112a288a0f4894140bd9c98768a05fcc" style="width: 100.0%; height: 100.0%;">Sokol Airport Timezone: Asia/Magadan</div>`)[0];
+                popup_86f92a2220a94de622ed17ae813629f4.setContent(html_112a288a0f4894140bd9c98768a05fcc);
+            
+        
+
+        marker_2aa648509787250510fb04b9f933df63.bindPopup(popup_86f92a2220a94de622ed17ae813629f4)
+        ;
+
+        
+    
+    
+            var marker_b7b035c9cb8b22629a13d1d55aeace8e = L.marker(
+                [52.026299, 113.306],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_6028e1144562c893c70b7c33e9e06195 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_b7b035c9cb8b22629a13d1d55aeace8e.setIcon(icon_6028e1144562c893c70b7c33e9e06195);
+        
+    
+        var popup_20703b819f2b9464ac54b7f09817c69d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07483f01e9fded3309277db5b48ed343 = $(`<div id="html_07483f01e9fded3309277db5b48ed343" style="width: 100.0%; height: 100.0%;">Chita-Kadala Airport Timezone: Asia/Chita</div>`)[0];
+                popup_20703b819f2b9464ac54b7f09817c69d.setContent(html_07483f01e9fded3309277db5b48ed343);
+            
+        
+
+        marker_b7b035c9cb8b22629a13d1d55aeace8e.bindPopup(popup_20703b819f2b9464ac54b7f09817c69d)
+        ;
+
+        
+    
+    
+            var marker_a65de491fd4bd9cf6c826605a4863df5 = L.marker(
+                [56.370601654052734, 101.697998046875],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_cb8616dff621e1dea31d8204347c085b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_a65de491fd4bd9cf6c826605a4863df5.setIcon(icon_cb8616dff621e1dea31d8204347c085b);
+        
+    
+        var popup_b18e9ca900e52cd711f55ba0f8404024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfb62f58dace23bf10b589e0cf9536ab = $(`<div id="html_dfb62f58dace23bf10b589e0cf9536ab" style="width: 100.0%; height: 100.0%;">Bratsk Airport Timezone: Asia/Irkutsk</div>`)[0];
+                popup_b18e9ca900e52cd711f55ba0f8404024.setContent(html_dfb62f58dace23bf10b589e0cf9536ab);
+            
+        
+
+        marker_a65de491fd4bd9cf6c826605a4863df5.bindPopup(popup_b18e9ca900e52cd711f55ba0f8404024)
+        ;
+
+        
+    
+    
+            var marker_bafbd1be6ea9e6777d2f81308dba19f8 = L.marker(
+                [52.268001556396, 104.38899993896],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_8c790bf43f401c9b63aa0096eaa483c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_bafbd1be6ea9e6777d2f81308dba19f8.setIcon(icon_8c790bf43f401c9b63aa0096eaa483c8);
+        
+    
+        var popup_97a6124ef42bbc7e76c60e5f2a0e47e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f8efb14ddb1a9131513240349a2cf1c = $(`<div id="html_5f8efb14ddb1a9131513240349a2cf1c" style="width: 100.0%; height: 100.0%;">Irkutsk Airport Timezone: Asia/Irkutsk</div>`)[0];
+                popup_97a6124ef42bbc7e76c60e5f2a0e47e0.setContent(html_5f8efb14ddb1a9131513240349a2cf1c);
+            
+        
+
+        marker_bafbd1be6ea9e6777d2f81308dba19f8.bindPopup(popup_97a6124ef42bbc7e76c60e5f2a0e47e0)
+        ;
+
+        
+    
+    
+            var marker_af5cb970d3a486cff013314a2195f0d7 = L.marker(
+                [51.80780029296875, 107.43800354003906],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_2ca55d3318cf221a952f9464a599a576 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_af5cb970d3a486cff013314a2195f0d7.setIcon(icon_2ca55d3318cf221a952f9464a599a576);
+        
+    
+        var popup_7fa14d920180d0ab52ac88e0d24e3d20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_595314b081170b9e07a452d375999306 = $(`<div id="html_595314b081170b9e07a452d375999306" style="width: 100.0%; height: 100.0%;">Ulan-Ude Airport (Mukhino) Timezone: Asia/Irkutsk</div>`)[0];
+                popup_7fa14d920180d0ab52ac88e0d24e3d20.setContent(html_595314b081170b9e07a452d375999306);
+            
+        
+
+        marker_af5cb970d3a486cff013314a2195f0d7.bindPopup(popup_7fa14d920180d0ab52ac88e0d24e3d20)
+        ;
+
+        
+    
+    
+            var marker_03468fb570a6e67d0ab53512d4aad6ba = L.marker(
+                [68.78170013427734, 32.75080108642578],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_91e9730177bcd9e661177389a1e5a0cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_03468fb570a6e67d0ab53512d4aad6ba.setIcon(icon_91e9730177bcd9e661177389a1e5a0cf);
+        
+    
+        var popup_c79e13aa63d3e9007a767a0babb38738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eb33fca60722fca549bfbcd332d5471 = $(`<div id="html_8eb33fca60722fca549bfbcd332d5471" style="width: 100.0%; height: 100.0%;">Murmansk Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_c79e13aa63d3e9007a767a0babb38738.setContent(html_8eb33fca60722fca549bfbcd332d5471);
+            
+        
+
+        marker_03468fb570a6e67d0ab53512d4aad6ba.bindPopup(popup_c79e13aa63d3e9007a767a0babb38738)
+        ;
+
+        
+    
+    
+            var marker_64c972935d55790ac2c199d8ccb92780 = L.marker(
+                [53.7400016784668, 91.38500213623047],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_678b99653e938a45329a83755cd86b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_64c972935d55790ac2c199d8ccb92780.setIcon(icon_678b99653e938a45329a83755cd86b7e);
+        
+    
+        var popup_92d222dda5442f577fdf3943ad04fa37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b82121408edf32385664c9fad821383e = $(`<div id="html_b82121408edf32385664c9fad821383e" style="width: 100.0%; height: 100.0%;">Abakan Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_92d222dda5442f577fdf3943ad04fa37.setContent(html_b82121408edf32385664c9fad821383e);
+            
+        
+
+        marker_64c972935d55790ac2c199d8ccb92780.bindPopup(popup_92d222dda5442f577fdf3943ad04fa37)
+        ;
+
+        
+    
+    
+            var marker_cdbf453d027066e9a0c24ed9671c1cb1 = L.marker(
+                [53.363800048828125, 83.53849792480469],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_b61d87f955ff201dcc9655799e24a864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_cdbf453d027066e9a0c24ed9671c1cb1.setIcon(icon_b61d87f955ff201dcc9655799e24a864);
+        
+    
+        var popup_1b525f0b390d2ef88799675a6a82012e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef2f17b8bd1076b47583b86b924382f2 = $(`<div id="html_ef2f17b8bd1076b47583b86b924382f2" style="width: 100.0%; height: 100.0%;">Barnaul Airport Timezone: Asia/Krasnoyarsk</div>`)[0];
+                popup_1b525f0b390d2ef88799675a6a82012e.setContent(html_ef2f17b8bd1076b47583b86b924382f2);
+            
+        
+
+        marker_cdbf453d027066e9a0c24ed9671c1cb1.bindPopup(popup_1b525f0b390d2ef88799675a6a82012e)
+        ;
+
+        
+    
+    
+            var marker_485eba5c9c54c5cd71b2177c03d05f2d = L.marker(
+                [45.002101898193, 37.347301483154],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_5bcf47952e63930febf9f02dca18c038 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_485eba5c9c54c5cd71b2177c03d05f2d.setIcon(icon_5bcf47952e63930febf9f02dca18c038);
+        
+    
+        var popup_f0ae0651a1d6468fc253766b11555f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85cd5f5374bdb10bccbbf9ecae8fe3af = $(`<div id="html_85cd5f5374bdb10bccbbf9ecae8fe3af" style="width: 100.0%; height: 100.0%;">Anapa Vityazevo Airport Timezone: Europe/Moscow</div>`)[0];
+                popup_f0ae0651a1d6468fc253766b11555f62.setContent(html_85cd5f5374bdb10bccbbf9ecae8fe3af);
+            
+        
+
+        marker_485eba5c9c54c5cd71b2177c03d05f2d.bindPopup(popup_f0ae0651a1d6468fc253766b11555f62)
+        ;
+
+        
+    
+    
+            var marker_7e49620b62d82423621b3f80e7ffc94d = L.marker(
+                [56.913898468018, 124.91400146484],
+                {"fill": true, "radius": 8}
+            ).addTo(map_dfb1f51b1b03b1890b3b979b891251c4);
+        
+    
+            var icon_01c72d41e31ecb406b41d76d2fb5394d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7e49620b62d82423621b3f80e7ffc94d.setIcon(icon_01c72d41e31ecb406b41d76d2fb5394d);
+        
+    
+        var popup_99ff8e2a539047e77eb8a7a6ad88f450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d116d31e3d7ff45c6accbb77c576abf = $(`<div id="html_0d116d31e3d7ff45c6accbb77c576abf" style="width: 100.0%; height: 100.0%;">Chulman Airport Timezone: Asia/Yakutsk</div>`)[0];
+                popup_99ff8e2a539047e77eb8a7a6ad88f450.setContent(html_0d116d31e3d7ff45c6accbb77c576abf);
+            
+        
+
+        marker_7e49620b62d82423621b3f80e7ffc94d.bindPopup(popup_99ff8e2a539047e77eb8a7a6ad88f450)
+        ;
+
+        
+    
+</script>
+</html>
