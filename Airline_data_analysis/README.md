@@ -1,1 +1,3 @@
-# data-analyst-portfolio
+# Airline Data Analysis
+
+I have conducted an analysis based on the data from Kaggle <https://www.kaggle.com/datasets/mohammadkaiftahir/airline-dataset/code?datasetId=3860273&sortBy=dateRun&tab=profile>. I have decided for this dataset, because this dataset has pretty extended structure, many records and tables. Project stack: Pandas, Seaborn, Matplotlib, SQLITE, Folium. In this notebook I have answered for 18 questions and conducted some data cleaning as well. Alternatively you can view my projcet under this link (map is rendered) <https://nbviewer.org/github/rafal19/data-analyst-portfolio/blob/main/Airline_data_analysis/Airline_Dataset_Analysis.ipynb>
