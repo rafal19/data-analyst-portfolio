@@ -1,0 +1,3 @@
+# Data Analyst Portfolio
+
+My name is Rafal. I am passionate about data and its insights. I will be publishing some of my work regularly. I would like to start my professional career in data industry. For now, it is my way of spending my spare time, but who knows, maybe it will be my profession :) I've recently been doing some projects using Python libraries, SQL or Tableau. Before that I used to work with Excel and I feel quite competent with this tool. If you are interested in my person, projects and want to talk about the possibility of cooperation, drop me a message. <rafal_markiewicz@yahoo.com>.
