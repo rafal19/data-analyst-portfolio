@@ -1,5 +1,4 @@
 # Premier League Players Web Scrapper (Data scrapped from Fbref)
 
-I have wrritten the code that generates the data set of the user's choice. The user can choose between 8 sections of data type and 20 teams in any combination. The output is a CSV file containing the stats of the players selected by the user. The user has to enter values in the exact way as listed above the list of options in each part of program.
-
+I have written the code that generates the dataset of the user's choice. The user can choose between 8 sections of data type and 20 teams in any combination. The output is a CSV file containing the stats of the players selected by the user. The user must enter the values in exactly the same way as shown above the list of options in each part of the programme. The file is automatically saved in the same folder as the web_scrapper.py file. It contains data from the current season, generated up to the date of the request. The terminology of the tables is the same as in the original website. In my spare time I will try to update the descriptions of each column, for now I would advise to look up descriptions in an original website if you're not familiar with certain columns.
 
