@@ -1,3 +1,5 @@
-# Data Analyst Portfolio
+# Premier League Players Web Scrapper (Data scrapped from Fbref)
 
-My name is Rafal. I am passionate about data and its insights. I will be publishing some of my work regularly. I would like to start my professional career in data industry. For now, it is my way of spending my spare time, but who knows, maybe it will be my profession :) I've recently been doing some projects using Python libraries, SQL or Tableau. Before that I used to work with Excel and I feel quite competent with this tool. If you are interested in my person, projects and want to talk about the possibility of cooperation, drop me a message. <rafal_markiewicz@yahoo.com>.
+I wrote the code that generates the data set of the user's choice. The user can choose between 8 sections of data type and 20 teams in any combination. The output is a CSV file containing the stats of the players selected by the user. The user has to enter values in the exact way as listed above the list of options in each part of program.
+
+
