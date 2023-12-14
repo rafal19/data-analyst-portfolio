@@ -73,11 +73,9 @@ def export_csv_data(urls,fdict,choice):
     data_lst = []
     for i in choice:
         for url in urls:
-            #needed in full version of program but unavaiable due of limitation of requests from fbref.com website
             time.sleep(3)
             data  = requests.get(url).text 
             soup = BeautifulSoup(data,"html5lib")
-
             #new empty Datatable
             table = fdict[i][2](fdict[i][3])
             #Seperated HTML code
