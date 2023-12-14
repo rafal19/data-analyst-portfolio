@@ -71,10 +71,6 @@ def get_gca_soup(soup):
 def export_csv_data(urls,fdict,choice):
     lst = []
     data_lst = []
-    #Due of requests limitation I had to include these two lines of code here (Just single club will be requested)
-    #data  = requests.get(urls[0]).text 
-    #soup = BeautifulSoup(data,"html5lib")
-    ##########
     for i in choice:
         for url in urls:
             #needed in full version of program but unavaiable due of limitation of requests from fbref.com website
@@ -88,11 +84,7 @@ def export_csv_data(urls,fdict,choice):
             web = fdict[i][0](soup)
             #extracting data
             club_data= fdict[i][1](table,web,url)
-            """club_data['club'] = [items.replace('-',' ') for items in club_data['club']]
-            club_data['Nation'] = [items[-3:] for items in club_data['Nation']]
-            club_data['Age'] = [items[0:2] for items in club_data['Age']]"""
             cleaned_data = data_cleaning(club_data)
-
             lst.append(i)
             data_lst.append(cleaned_data)
         zip_data = zip(lst,data_lst)
